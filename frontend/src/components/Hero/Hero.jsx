@@ -11,7 +11,7 @@ export default function HeroSlider() {
   const intervalRef = useRef(null);
   const { language } = useLanguage();
   const { translate } = useTranslation();
-  const { isAuthenticated } = useAuth(); // ✅ Access auth state
+  const { user } = useAuth(); // ✅ Access auth state
 
   const ANIMATION_DURATION = 5000;
 
@@ -61,11 +61,11 @@ export default function HeroSlider() {
       ))}
 
       {/* ✅ Conditional Register Button */}
-      {!isAuthenticated && (
-        <div className="absolute inset-0 bg-black/40 flex items-center justify-center z-10">
+      {!user && (
+        <div className="absolute inset-0 bg-black/20 flex items-center justify-center z-10">
           <Link
             to="/register"
-            className="px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white text-lg md:text-xl lg:text-2xl rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition-transform duration-300 animate-bounce"
+            className="px-8 py-4 bg-gradient-to-r from-rose-800 via-red-700 to-rose-900 text-white text-lg md:text-xl lg:text-2xl rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition-transform duration-300 animate-bounce"
           >
             Register Now
           </Link>
