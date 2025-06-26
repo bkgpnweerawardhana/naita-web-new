@@ -1,0 +1,5495 @@
+[
+{
+  "model": "courses.coursecategory",
+  "pk": 1,
+  "fields": {
+    "name": "Engineering",
+    "name_en": "Engineering",
+    "name_si": null,
+    "description": "Engineering and technical courses",
+    "description_en": "Engineering and technical courses",
+    "description_si": null,
+    "icon": ""
+  }
+},
+{
+  "model": "courses.coursecategory",
+  "pk": 2,
+  "fields": {
+    "name": "Information Technology",
+    "name_en": "Information Technology",
+    "name_si": null,
+    "description": "IT and computing courses",
+    "description_en": "IT and computing courses",
+    "description_si": null,
+    "icon": ""
+  }
+},
+{
+  "model": "courses.coursecategory",
+  "pk": 3,
+  "fields": {
+    "name": "Business",
+    "name_en": "Business",
+    "name_si": null,
+    "description": "Business management courses",
+    "description_en": "Business management courses",
+    "description_si": null,
+    "icon": ""
+  }
+},
+{
+  "model": "courses.coursecategory",
+  "pk": 4,
+  "fields": {
+    "name": "Hospitality",
+    "name_en": "Hospitality",
+    "name_si": null,
+    "description": "Hotel and tourism courses",
+    "description_en": "Hotel and tourism courses",
+    "description_si": null,
+    "icon": ""
+  }
+},
+{
+  "model": "courses.coursecategory",
+  "pk": 5,
+  "fields": {
+    "name": "Construction",
+    "name_en": "Construction",
+    "name_si": null,
+    "description": "Building and construction courses",
+    "description_en": "Building and construction courses",
+    "description_si": null,
+    "icon": ""
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "title": "Basic Electrical Wiring",
+    "title_en": "Basic Electrical Wiring",
+    "title_si": null,
+    "code": "BEW-101",
+    "category": 1,
+    "description": "Fundamentals of electrical wiring for residential buildings",
+    "description_en": "Fundamentals of electrical wiring for residential buildings",
+    "description_si": null,
+    "nvq_level": "none",
+    "training_type": "cbt",
+    "is_free": false,
+    "nvq3_duration": null,
+    "nvq3_duration_unit": null,
+    "nvq4_duration": null,
+    "nvq4_duration_unit": null,
+    "non_nvq_duration": null,
+    "non_nvq_duration_unit": null,
+    "fee": "15000.00",
+    "registration_fee": "1000.00",
+    "thumbnail": "course_thumbnails/National-Trade-Testing.jpg",
+    "background_image": "",
+    "certification": "NAITA Electrical Wiring Certificate",
+    "certification_en": "NAITA Electrical Wiring Certificate",
+    "certification_si": null,
+    "features": [
+      "Hands-on training",
+      "Industry recognized certification",
+      "Job placement assistance"
+    ],
+    "features_en": [
+      "Hands-on training",
+      "Industry recognized certification",
+      "Job placement assistance"
+    ],
+    "features_si": null,
+    "requirements": [
+      "O/L Mathematics",
+      "O/L Science",
+      "Basic English"
+    ],
+    "requirements_en": [
+      "O/L Mathematics",
+      "O/L Science",
+      "Basic English"
+    ],
+    "requirements_si": null,
+    "syllabus": "",
+    "is_active": true,
+    "created_at": "2025-05-16T06:24:02.975Z",
+    "updated_at": "2025-06-09T05:38:40.048Z",
+    "available_districts": []
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 2,
+  "fields": {
+    "title": "Web Development Fundamentals",
+    "title_en": "Web Development Fundamentals",
+    "title_si": null,
+    "code": "WDF-201",
+    "category": 2,
+    "description": "Introduction to HTML, CSS and JavaScript",
+    "description_en": "Introduction to HTML, CSS and JavaScript",
+    "description_si": null,
+    "nvq_level": "none",
+    "training_type": "cbt",
+    "is_free": false,
+    "nvq3_duration": null,
+    "nvq3_duration_unit": null,
+    "nvq4_duration": null,
+    "nvq4_duration_unit": null,
+    "non_nvq_duration": null,
+    "non_nvq_duration_unit": null,
+    "fee": "20000.00",
+    "registration_fee": "1500.00",
+    "thumbnail": "course_thumbnails/gym-hall-1.jpg",
+    "background_image": "course_backgrounds/1667254126_41-colodu-club-p-trenazhernii-zal-maksimus-oboi-45.jpg",
+    "certification": "NAITA Web Development Certificate",
+    "certification_en": "NAITA Web Development Certificate",
+    "certification_si": null,
+    "features": [
+      "Project-based learning",
+      "Portfolio development",
+      "Freelance training"
+    ],
+    "features_en": [
+      "Project-based learning",
+      "Portfolio development",
+      "Freelance training"
+    ],
+    "features_si": null,
+    "requirements": [
+      "Basic computer literacy",
+      "English language skills"
+    ],
+    "requirements_en": [
+      "Basic computer literacy",
+      "English language skills"
+    ],
+    "requirements_si": null,
+    "syllabus": "",
+    "is_active": true,
+    "created_at": "2025-05-16T06:24:03.001Z",
+    "updated_at": "2025-06-16T03:58:17.749Z",
+    "available_districts": [
+      2
+    ]
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 3,
+  "fields": {
+    "title": "Advanced Python Programming",
+    "title_en": "Advanced Python Programming",
+    "title_si": null,
+    "code": "APP-301",
+    "category": 2,
+    "description": "Advanced Python concepts and frameworks",
+    "description_en": "Advanced Python concepts and frameworks",
+    "description_si": null,
+    "nvq_level": "none",
+    "training_type": "cbt",
+    "is_free": false,
+    "nvq3_duration": null,
+    "nvq3_duration_unit": null,
+    "nvq4_duration": null,
+    "nvq4_duration_unit": null,
+    "non_nvq_duration": null,
+    "non_nvq_duration_unit": null,
+    "fee": "25000.00",
+    "registration_fee": "2000.00",
+    "thumbnail": "course_thumbnails/book.jpeg",
+    "background_image": "course_backgrounds/Feature_Image_CuteProfessional.jpg",
+    "certification": "NAITA Advanced Python Certificate",
+    "certification_en": "NAITA Advanced Python Certificate",
+    "certification_si": null,
+    "features": [
+      "Django framework",
+      "REST APIs",
+      "Database integration"
+    ],
+    "features_en": [
+      "Django framework",
+      "REST APIs",
+      "Database integration"
+    ],
+    "features_si": null,
+    "requirements": [
+      "Basic Python knowledge",
+      "WDF-201 completion recommended"
+    ],
+    "requirements_en": [
+      "Basic Python knowledge",
+      "WDF-201 completion recommended"
+    ],
+    "requirements_si": null,
+    "syllabus": "",
+    "is_active": true,
+    "created_at": "2025-05-16T06:24:03.042Z",
+    "updated_at": "2025-06-09T14:09:36.269Z",
+    "available_districts": [
+      21,
+      18,
+      24
+    ]
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 4,
+  "fields": {
+    "title": "Automobile",
+    "title_en": "Automobile",
+    "title_si": null,
+    "code": "2",
+    "category": 4,
+    "description": "good course",
+    "description_en": "good course",
+    "description_si": null,
+    "nvq_level": "none",
+    "training_type": "cbt",
+    "is_free": false,
+    "nvq3_duration": null,
+    "nvq3_duration_unit": null,
+    "nvq4_duration": null,
+    "nvq4_duration_unit": null,
+    "non_nvq_duration": null,
+    "non_nvq_duration_unit": null,
+    "fee": "5000.00",
+    "registration_fee": "1500.00",
+    "thumbnail": "course_thumbnails/RPL.jpg",
+    "background_image": "",
+    "certification": "NVQ 2",
+    "certification_en": "NVQ 2",
+    "certification_si": null,
+    "features": [
+      "fgg",
+      "wwer"
+    ],
+    "features_en": [
+      "fgg",
+      "wwer"
+    ],
+    "features_si": null,
+    "requirements": [
+      3232
+    ],
+    "requirements_en": [
+      3232
+    ],
+    "requirements_si": null,
+    "syllabus": "",
+    "is_active": true,
+    "created_at": "2025-05-22T08:49:31.134Z",
+    "updated_at": "2025-06-09T05:38:40.057Z",
+    "available_districts": []
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 5,
+  "fields": {
+    "title": "test 2",
+    "title_en": "test 2",
+    "title_si": null,
+    "code": "355",
+    "category": 5,
+    "description": "helejriow",
+    "description_en": "helejriow",
+    "description_si": null,
+    "nvq_level": "none",
+    "training_type": "cbt",
+    "is_free": false,
+    "nvq3_duration": null,
+    "nvq3_duration_unit": null,
+    "nvq4_duration": null,
+    "nvq4_duration_unit": null,
+    "non_nvq_duration": null,
+    "non_nvq_duration_unit": null,
+    "fee": "233.00",
+    "registration_fee": "2355.00",
+    "thumbnail": "course_thumbnails/Huawei-Nova-3-Wall-DroidViews-13.jpg",
+    "background_image": "course_backgrounds/Sunset_Over_Mountains_1.jpg",
+    "certification": "NAITA Advanced Python Certificate",
+    "certification_en": "NAITA Advanced Python Certificate",
+    "certification_si": null,
+    "features": [
+      "dsf",
+      "sdfs"
+    ],
+    "features_en": [
+      "dsf",
+      "sdfs"
+    ],
+    "features_si": null,
+    "requirements": [
+      "sdfaf"
+    ],
+    "requirements_en": [
+      "sdfaf"
+    ],
+    "requirements_si": null,
+    "syllabus": "",
+    "is_active": true,
+    "created_at": "2025-05-22T09:16:30.650Z",
+    "updated_at": "2025-06-16T03:54:19.640Z",
+    "available_districts": []
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 6,
+  "fields": {
+    "title": "German Language",
+    "title_en": "German Language",
+    "title_si": null,
+    "code": "E239",
+    "category": 3,
+    "description": "This course provide you the Fundementals of Next js",
+    "description_en": "This course provide you the Fundementals of Next js",
+    "description_si": null,
+    "nvq_level": "none",
+    "training_type": "cbt",
+    "is_free": false,
+    "nvq3_duration": null,
+    "nvq3_duration_unit": null,
+    "nvq4_duration": null,
+    "nvq4_duration_unit": null,
+    "non_nvq_duration": null,
+    "non_nvq_duration_unit": null,
+    "fee": "13000.00",
+    "registration_fee": "500.00",
+    "thumbnail": "course_thumbnails/gettyimages-1199902447.jpg",
+    "background_image": "course_backgrounds/gettyimages-1199902447.jpg",
+    "certification": "NVQ 3",
+    "certification_en": "NVQ 3",
+    "certification_si": null,
+    "features": [
+      "Nothing offers You"
+    ],
+    "features_en": [
+      "Nothing offers You"
+    ],
+    "features_si": null,
+    "requirements": [
+      "A/L",
+      "O/L"
+    ],
+    "requirements_en": [
+      "A/L",
+      "O/L"
+    ],
+    "requirements_si": null,
+    "syllabus": "",
+    "is_active": true,
+    "created_at": "2025-05-22T09:51:57.807Z",
+    "updated_at": "2025-06-09T05:45:57.079Z",
+    "available_districts": [
+      25,
+      1,
+      16
+    ]
+  }
+},
+{
+  "model": "courses.courseoffering",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "institution": 5,
+    "start_date": "2025-06-15",
+    "end_date": "2025-09-13",
+    "instructor": 7,
+    "schedule": "Mon, Wed, Fri 6-9 PM",
+    "available_seats": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "courses.courseoffering",
+  "pk": 2,
+  "fields": {
+    "course": 2,
+    "institution": 5,
+    "start_date": "2025-06-30",
+    "end_date": "2025-10-28",
+    "instructor": 7,
+    "schedule": "Tue, Thu 5-8 PM",
+    "available_seats": 15,
+    "is_active": true
+  }
+},
+{
+  "model": "courses.courseoffering",
+  "pk": 3,
+  "fields": {
+    "course": 6,
+    "institution": 7,
+    "start_date": "2025-06-07",
+    "end_date": "2025-06-16",
+    "instructor": 7,
+    "schedule": "d",
+    "available_seats": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "courses.herocontent",
+  "pk": 1,
+  "fields": {
+    "title": "National Apprentice and Industrial Training Authority - Sri Lanka",
+    "title_en": "National Apprentice and Industrial Training Authority - Sri Lanka",
+    "title_si": "ජාතික ආධුනිකත්ව හා පුහුණු කිරීම් අධිකාරිය",
+    "description": "In 1971, the National Apprentice Board (NAB) was created to manage and organize job-based training programs for students. With help from the United Nations and the International Labor Organization, NAB developed skills to improve apprenticeship training. Broo",
+    "description_en": "In 1971, the National Apprentice Board (NAB) was created to manage and organize job-based training programs for students. With help from the United Nations and the International Labor Organization, NAB developed skills to improve apprenticeship training. Broo",
+    "description_si": "1971 දී, සිසුන් සඳහා වන රැකියාවන් පදනම් කරගෙන පවත්වනු ලබන  පුහුණු වැඩසටහන් සංවිධානය සහ කළමණාකරණය සඳහා ජාතික පුහුණු අධිකාරී ආයතනය පිහිටුවන ලදි.",
+    "button_text": "Register Now",
+    "button_text_en": "Register Now",
+    "button_text_si": "දැන්ම ලියාපදිංචි වන්න",
+    "background_image": "hero_images/Training1.jpg",
+    "is_active": true,
+    "created_at": "2025-05-22T04:24:17.073Z",
+    "updated_at": "2025-06-14T14:07:32.098Z"
+  }
+},
+{
+  "model": "courses.service",
+  "pk": 1,
+  "fields": {
+    "title": "Apprenticeship Training",
+    "title_en": "Apprenticeship Training",
+    "title_si": null,
+    "description": "industrial and Center base Training",
+    "description_en": "industrial and Center base Training",
+    "description_si": null,
+    "icon_name": "",
+    "display_order": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "courses.service",
+  "pk": 2,
+  "fields": {
+    "title": "Curriculum Development",
+    "title_en": "Curriculum Development",
+    "title_si": null,
+    "description": "National Skills  Standards & Curriculum Development",
+    "description_en": "National Skills  Standards & Curriculum Development",
+    "description_si": null,
+    "icon_name": "",
+    "display_order": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "courses.service",
+  "pk": 3,
+  "fields": {
+    "title": "OJT & SIT Replacement",
+    "title_en": "OJT & SIT Replacement",
+    "title_si": null,
+    "description": "Gain Hands-On Experience with On-the-Job Training & Specialized Industrial Programs!",
+    "description_en": "Gain Hands-On Experience with On-the-Job Training & Specialized Industrial Programs!",
+    "description_si": null,
+    "icon_name": "",
+    "display_order": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "courses.service",
+  "pk": 4,
+  "fields": {
+    "title": "Certification",
+    "title_en": "Certification",
+    "title_si": null,
+    "description": "Provide NAITA & NVQ Certification",
+    "description_en": "Provide NAITA & NVQ Certification",
+    "description_si": null,
+    "icon_name": "",
+    "display_order": 0,
+    "is_active": true
+  }
+},
+{
+  "model": "courses.dashboardstat",
+  "pk": 1,
+  "fields": {
+    "active_learners": 12500,
+    "active_learners_en": 12500,
+    "active_learners_si": 12500,
+    "total_courses": 150,
+    "total_courses_en": 150,
+    "total_courses_si": 150,
+    "proud_graduates": 12000,
+    "proud_graduates_en": 12000,
+    "proud_graduates_si": 12000,
+    "current_year": 2025,
+    "last_updated": "2025-06-15T04:13:53.899Z",
+    "is_active": true
+  }
+},
+{
+  "model": "courses.dashboardstat",
+  "pk": 2,
+  "fields": {
+    "active_learners": 2,
+    "active_learners_en": 2,
+    "active_learners_si": null,
+    "total_courses": 100,
+    "total_courses_en": 100,
+    "total_courses_si": null,
+    "proud_graduates": 45,
+    "proud_graduates_en": 45,
+    "proud_graduates_si": null,
+    "current_year": 2024,
+    "last_updated": "2025-05-22T09:56:44.524Z",
+    "is_active": false
+  }
+},
+{
+  "model": "courses.popularcourse",
+  "pk": 1,
+  "fields": {
+    "name": "Advanced Python",
+    "name_en": "Advanced Python",
+    "name_si": "පයිතන් භාෂාව",
+    "percentage": 87,
+    "year": 2025,
+    "stats": 1
+  }
+},
+{
+  "model": "courses.popularcourse",
+  "pk": 2,
+  "fields": {
+    "name": "hello python",
+    "name_en": "hello python",
+    "name_si": "ක්‍රමලේක",
+    "percentage": 80,
+    "year": 2025,
+    "stats": 1
+  }
+},
+{
+  "model": "courses.popularcourse",
+  "pk": 3,
+  "fields": {
+    "name": "Advanced Python",
+    "name_en": "Advanced Python",
+    "name_si": null,
+    "percentage": 23,
+    "year": 2024,
+    "stats": 2
+  }
+},
+{
+  "model": "courses.popularcourse",
+  "pk": 4,
+  "fields": {
+    "name": "Food Technology",
+    "name_en": "Food Technology",
+    "name_si": "ආහාර තාක්ෂණය",
+    "percentage": 76,
+    "year": 2025,
+    "stats": 1
+  }
+},
+{
+  "model": "courses.popularcourse",
+  "pk": 5,
+  "fields": {
+    "name": "Automobile",
+    "name_en": "Automobile",
+    "name_si": "කාර්මික",
+    "percentage": 72,
+    "year": 2025,
+    "stats": 1
+  }
+},
+{
+  "model": "courses.popularcourse",
+  "pk": 6,
+  "fields": {
+    "name": "Electronic",
+    "name_en": "Electronic",
+    "name_si": "විදුලි",
+    "percentage": 67,
+    "year": 2024,
+    "stats": 1
+  }
+},
+{
+  "model": "courses.popularcourse",
+  "pk": 7,
+  "fields": {
+    "name": "Computer Network",
+    "name_en": "Computer Network",
+    "name_si": "පරිගණක",
+    "percentage": 64,
+    "year": 2025,
+    "stats": 1
+  }
+},
+{
+  "model": "courses.popularcourse",
+  "pk": 8,
+  "fields": {
+    "name": "Database Administration",
+    "name_en": "Database Administration",
+    "name_si": "දත්ත පාදක",
+    "percentage": 58,
+    "year": 2023,
+    "stats": 1
+  }
+},
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$RGSn9Bd1NhMNOggLI0xFZf$w/IoBm1hTpZ6ABWswdjrcEBfcSpWSNHNTrzE6PnAE9Y=",
+    "last_login": "2025-06-10T12:41:00.083Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@user.lk",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-05-16T06:12:23Z",
+    "user_type": 1,
+    "nic_number": null,
+    "phone": "0721104036",
+    "address": "",
+    "district": null,
+    "date_of_birth": null,
+    "profile_picture": "profile_pics/34161c76567e4cd1977e8bc028e0e3f8.png",
+    "is_verified": false,
+    "education_qualifications": [],
+    "work_experience": [],
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$0PpfDEod5lcUuiNtKcJt1J$SHrveEim7A3Yrn4oc9/OJOJWAf5P74KfcgHhCzhN9Eo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "student1",
+    "first_name": "Brenda",
+    "last_name": "Casey",
+    "email": "patriciagreene@example.net",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-16T06:14:16.272Z",
+    "user_type": 3,
+    "nic_number": null,
+    "phone": "(883)943-2472x5",
+    "address": null,
+    "district": null,
+    "date_of_birth": null,
+    "profile_picture": "",
+    "is_verified": false,
+    "education_qualifications": [],
+    "work_experience": [],
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$8ehJ7GHoSANQK1OMNcPnt8$WoUfIUtY4rb4WM/qh1g9FIG/VQh2zid0Mfh+h2jzxl8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "student2",
+    "first_name": "Jaime",
+    "last_name": "Kim",
+    "email": "sarah74@example.net",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-16T06:14:17.757Z",
+    "user_type": 3,
+    "nic_number": null,
+    "phone": "539.583.0531",
+    "address": null,
+    "district": null,
+    "date_of_birth": null,
+    "profile_picture": "",
+    "is_verified": false,
+    "education_qualifications": [],
+    "work_experience": [],
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$ntpyAavqjmny1KsrS5glM7$PFqvl7gEDhJFUKew7teLuo6q2KvKv7KB2uNcGu9cZ9E=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "student3",
+    "first_name": "Donna",
+    "last_name": "Nixon",
+    "email": "laurensmith@example.org",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-16T06:14:19.434Z",
+    "user_type": 3,
+    "nic_number": null,
+    "phone": "(279)609-3058",
+    "address": null,
+    "district": null,
+    "date_of_birth": null,
+    "profile_picture": "",
+    "is_verified": false,
+    "education_qualifications": [],
+    "work_experience": [],
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$sXYenJZE24QXTcRkCMhOJi$NneCV9yIzZjv34AMLrpOYP5og4c17uYp694kkwlb/TQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "student4",
+    "first_name": "Andrew",
+    "last_name": "Cooke",
+    "email": "martinkayla@example.net",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-16T06:14:21.214Z",
+    "user_type": 3,
+    "nic_number": null,
+    "phone": "+1-984-917-5134",
+    "address": null,
+    "district": null,
+    "date_of_birth": null,
+    "profile_picture": "",
+    "is_verified": false,
+    "education_qualifications": [],
+    "work_experience": [],
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Q7Jd4is4n6PIH48B0L1AQr$OihueiIktmn7gBWvdCKWVLh+jMmoGfwd4m17sK2fvqs=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "student5",
+    "first_name": "Wayne",
+    "last_name": "Chang",
+    "email": "holson@example.org",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-16T06:14:23Z",
+    "user_type": 3,
+    "nic_number": null,
+    "phone": "(937)993-2362",
+    "address": "",
+    "district": null,
+    "date_of_birth": null,
+    "profile_picture": "",
+    "is_verified": false,
+    "education_qualifications": [],
+    "work_experience": [],
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$oqpRgftAJ8HKy8C6mEUdp3$tD28Sxhdb8GuMviPC2tnVvz70uXYivuIkPSrr3lJaXg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "instructor1",
+    "first_name": "John",
+    "last_name": "Smith",
+    "email": "instructor@naita.lk",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-16T06:24:03.079Z",
+    "user_type": 2,
+    "nic_number": null,
+    "phone": "0771234567",
+    "address": null,
+    "district": null,
+    "date_of_birth": null,
+    "profile_picture": "",
+    "is_verified": false,
+    "education_qualifications": [],
+    "work_experience": [],
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$5RdG0MKnZOIx7SR1b04Yhi$fosKSUDa3EMYaQufwld3peV7zhUKVElncnGxrE1B86s=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "testuser",
+    "first_name": "test",
+    "last_name": "user1",
+    "email": "test@user.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-06T04:52:25Z",
+    "user_type": 3,
+    "nic_number": "122222222",
+    "phone": "12222222",
+    "address": "",
+    "district": null,
+    "date_of_birth": "2025-06-09",
+    "profile_picture": "",
+    "is_verified": false,
+    "education_qualifications": [],
+    "work_experience": [],
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$yPecwrAsfXlGdRz9n7Qy3k$OQG2SUf2dRS5QUHPCyEo9wKAivJU6uVR8il9T0Jw4FA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "testuser2",
+    "first_name": "test",
+    "last_name": "user2",
+    "email": "test@user2.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-06T04:55:34Z",
+    "user_type": 3,
+    "nic_number": "122222223",
+    "phone": "12222222",
+    "address": "",
+    "district": null,
+    "date_of_birth": "2025-06-09",
+    "profile_picture": "",
+    "is_verified": false,
+    "education_qualifications": [],
+    "work_experience": [],
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 19,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Fzdjr1UT7AKtDgFoCjnVEn$66hIvWHFVL63MbR9bUBDWKgd4qc5XN1pG3FdDdg3Jr0=",
+    "last_login": "2025-06-06T05:19:45Z",
+    "is_superuser": false,
+    "username": "testuser3",
+    "first_name": "test",
+    "last_name": "user3",
+    "email": "test@user3.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-06T05:18:20Z",
+    "user_type": 3,
+    "nic_number": "5322222222",
+    "phone": "1233333",
+    "address": "",
+    "district": null,
+    "date_of_birth": "2025-06-02",
+    "profile_picture": "",
+    "is_verified": true,
+    "education_qualifications": [],
+    "work_experience": [],
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 20,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$8b70KITRXsTlNwgxwcNhIs$xcElFi87tjevreiNqanEr9ia327x2t/1QFViox2G3CY=",
+    "last_login": "2025-06-08T03:39:12.226Z",
+    "is_superuser": false,
+    "username": "damith",
+    "first_name": "damith",
+    "last_name": "test",
+    "email": "damith@123.lk",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-08T03:35:18.487Z",
+    "user_type": 3,
+    "nic_number": "1628399373",
+    "phone": "0740077327",
+    "address": null,
+    "district": null,
+    "date_of_birth": "2025-05-05",
+    "profile_picture": "",
+    "is_verified": true,
+    "education_qualifications": [],
+    "work_experience": [],
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 21,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$OX1cHxLaOT9pVygYGJiSWS$rzj2au3yfRhI4Ylts7u+A6Ve4+6gsHB9CU6NPuu3Ma8=",
+    "last_login": "2025-06-12T03:45:15.025Z",
+    "is_superuser": false,
+    "username": "user1",
+    "first_name": "user",
+    "last_name": "1",
+    "email": "user1@mail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-08T16:00:20Z",
+    "user_type": 3,
+    "nic_number": "46585969",
+    "phone": "98899889",
+    "address": "",
+    "district": 7,
+    "date_of_birth": "2025-06-02",
+    "profile_picture": "",
+    "is_verified": true,
+    "education_qualifications": [],
+    "work_experience": [],
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 22,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Szsx179fNzJ2nQgpeZNRxi$sUAPVgwaqK2Wz54fWeR07mcpBFMalpaU+HIEq+iDEQQ=",
+    "last_login": "2025-06-16T06:48:32.112Z",
+    "is_superuser": false,
+    "username": "user3",
+    "first_name": "user",
+    "last_name": "3",
+    "email": "user3@mail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-10T12:44:01Z",
+    "user_type": 3,
+    "nic_number": "2342523",
+    "phone": "344555",
+    "address": "",
+    "district": 21,
+    "date_of_birth": null,
+    "profile_picture": "",
+    "is_verified": false,
+    "education_qualifications": [],
+    "work_experience": [],
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 23,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$YwEdOE4rdT8ibhHSqGXwen$vlIKKAb27HOCDLhqT0OxpvPcBzJbmpxhEG4WGztTDsU=",
+    "last_login": "2025-06-16T06:49:52.232Z",
+    "is_superuser": false,
+    "username": "instructor2",
+    "first_name": "instructor",
+    "last_name": "2",
+    "email": "instructor@2.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-16T06:40:09Z",
+    "user_type": 2,
+    "nic_number": "1122334423",
+    "phone": "344555",
+    "address": "no,977, Diyadnwk, Boonle",
+    "district": 21,
+    "date_of_birth": null,
+    "profile_picture": "",
+    "is_verified": false,
+    "education_qualifications": [],
+    "work_experience": [],
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "enrollments.enrollment",
+  "pk": 1,
+  "fields": {
+    "student": 21,
+    "offering": 1,
+    "district": 21,
+    "applied_date": "2025-06-11T15:49:13.049Z",
+    "status": "approved",
+    "comments": "",
+    "rejection_reason": "details are wrong"
+  }
+},
+{
+  "model": "enrollments.enrollment",
+  "pk": 2,
+  "fields": {
+    "student": 22,
+    "offering": 2,
+    "district": 21,
+    "applied_date": "2025-06-16T06:49:14.493Z",
+    "status": "approved",
+    "comments": "",
+    "rejection_reason": ""
+  }
+},
+{
+  "model": "news.newscategory",
+  "pk": 1,
+  "fields": {
+    "name": "Announcements",
+    "name_en": "Announcements",
+    "name_si": "දැන්වීම්",
+    "slug": "announcements",
+    "is_active": true
+  }
+},
+{
+  "model": "news.newscategory",
+  "pk": 2,
+  "fields": {
+    "name": "Latest News",
+    "name_en": "Latest News",
+    "name_si": "නවතම පුවත්",
+    "slug": "latest-news",
+    "is_active": true
+  }
+},
+{
+  "model": "news.newscategory",
+  "pk": 3,
+  "fields": {
+    "name": "news",
+    "name_en": "news",
+    "name_si": "පුවත්",
+    "slug": "news",
+    "is_active": true
+  }
+},
+{
+  "model": "news.newspost",
+  "pk": 1,
+  "fields": {
+    "title": "Vesak Celebration",
+    "title_en": "Vesak Celebration",
+    "title_si": null,
+    "slug": "vesak-celebration",
+    "description": "Vesak Celebration was done at NAITA Head office with several Functions",
+    "description_en": "Vesak Celebration was done at NAITA Head office with several Functions",
+    "description_si": null,
+    "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33.\r\n\r\n    Finibus Bonorum et Malorum\"(The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "content_en": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33.\r\n\r\n    Finibus Bonorum et Malorum\"(The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "content_si": null,
+    "image": "news_images/images.jpeg",
+    "category": 1,
+    "post_type": "NW",
+    "author": 7,
+    "is_active": true,
+    "created_at": "2025-05-22T15:00:47.636Z",
+    "updated_at": "2025-05-23T10:23:40.838Z",
+    "views": 0
+  }
+},
+{
+  "model": "news.newspost",
+  "pk": 2,
+  "fields": {
+    "title": "New Year Celebration",
+    "title_en": "New Year Celebration",
+    "title_si": "අලුත් අවුරුදු උදාව සැමරීම",
+    "slug": "new-year-celebration",
+    "description": "Naita Head office organized a new Year celebration Ceremony at SSC Ground",
+    "description_en": "Naita Head office organized a new Year celebration Ceremony at SSC Ground",
+    "description_si": "නයිට ප්‍රධාන කාර්යාලය මගින් මේ අවුරුද්දේ 3 වෙනි වරටත් අලුත් අවුරුදු උත්සවයක් කොළඹ SSC ක්‍රීඩාංගණයේදී පවත්වන ලදි.",
+    "content": "sdfkhg jdjofjsoj  knkjdnf ljioejrw;",
+    "content_en": "sdfkhg jdjofjsoj  knkjdnf ljioejrw;",
+    "content_si": "සෙසු ප්‍රදේශවල ඇතැම් ස්ථානවලට පස්වරුවේ වැසි ඇති විය හැකියි.\r\n\r\nමධ්‍යම කඳුකරයේ බටහිර බෑවුම්වලත්, උතුර, උතුරු මැද, සබරගමුව, වයඹ සහ දකුණු පළාත්වලත් සුළං වේගය, පැයට කිලෝමීටර 50 ත් 60 ත් දක්වා ඉහළ යා හැකිවේ.\r\n\r\nකාලගුණ විද්‍යා දෙපාර්තමේන්තුව ජනතාවට දැනුම් දෙන්නේ, තද සුළං හේතුවෙන් සිදුවිය හැකි අනතුරු අවම කරගැනීමට පියවර ගන්නා ලෙසයි.\r\n\r\nමේ අතර හාලවත සිට පුත්තලම සහ මන්නාරම හරහා කන්කසන්තුරය දක්වා මෙන්ම, ගාල්ල සිට හම්බන්තොට හරහා පොතුවිල් දක්වා මුහුදු ප්‍රදේශවල නැවත දැනුම්දෙන තුරු යාත්‍රා නොකරන්නැයි කාලගුණ විද්‍යා දෙපාර්තමේන්තුව, ධීවර සහ නාවික ප්‍රජාවට දැනුම් දෙයි.\r\n\r\nඑම මුහුදු ප්‍රදේශවල සුළං වේගය, පැයට කිලෝමීටර 60 ත් 70 ත් දක්වා ඉහළ යා හැකියි.\r\n\r\nමේ අතර දිස්ත්‍රික්ක හතකට නිකුත් කළ නායයෑමේ අනතුරු ඇඟවීම් තවදුරටත් බලාත්මක වේ.\r\n\r\nඑම දිස්ත්‍රික්ක වන්නේ, කොළඹ, ගාල්ල, කළුතර, මහනුවර, කෑගල්ල, නුවරඑළිය සහ රත්නපුරයි.\r\n\r\nකණ්ඩි කඩා වැටීම්, ගල් පෙරළීම්, පොළව ඉරිතලා යෑම් ඇතුළු තත්ත්වයන් සම්බන්ධයෙන් අවධානයෙන් පසුවන්නැයි, ජාතික ගොඩනැගිලි පර්යේෂණ සංවිධානය ජනතාවට දැනුම් දෙයි.මේ අතර පවතින තද සුළං සහිත කාලගුණ තත්ත්වය හේතුවෙන් හානි වූ යාත්‍රා පිළිබඳ තොරතුරු ලබා දෙන්නැයි, ධීවර හා ජලජ සම්පත් අමාත්‍යංශය ධීවර ප්‍රජාවට දැනුම් දෙයි.\r\n\r\nධීවර හා ජලජ සම්පත් නියෝජ්‍ය අමාත්‍ය රත්න ගමගේ මහතා සඳහන් කළේ, ප්‍රාදේශීය ධීවර අධ්‍යක්ෂවරුන් හරහා ඒ පිළිබඳ දැනුම් දිය හැකි බවයි.\r\n\r\nඉන් අනතුරුව, යාත්‍රා අලුත්වැඩියා කිරීම සම්බන්ධයෙන් අවශ්‍ය කටයුතු සම්පාදනය කරන බව, නියෝජ්‍ය අමාත්‍යවරයා සඳහන් කළේ ය.",
+    "image": "news_images/34161c76567e4cd1977e8bc028e0e3f8.png",
+    "category": 2,
+    "post_type": "NW",
+    "author": 1,
+    "is_active": true,
+    "created_at": "2025-05-22T15:24:06.418Z",
+    "updated_at": "2025-06-16T15:45:59.319Z",
+    "views": 0
+  }
+},
+{
+  "model": "news.newspost",
+  "pk": 3,
+  "fields": {
+    "title": "introducing Chat GPT 6",
+    "title_en": "introducing Chat GPT 6",
+    "title_si": null,
+    "slug": "introducing-chat-gpt-6",
+    "description": "introduction  to Chat Gpt 6 is done at Naita it Division. elon musk is confused and cried so hard that everyone was melt",
+    "description_en": "introduction  to Chat Gpt 6 is done at Naita it Division. elon musk is confused and cried so hard that everyone was melt",
+    "description_si": null,
+    "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33.\r\n\r\n    Finibus Bonorum et Malorum\"(The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "content_en": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33.\r\n\r\n    Finibus Bonorum et Malorum\"(The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "content_si": null,
+    "image": "news_images/intro.jpg",
+    "category": 3,
+    "post_type": "NW",
+    "author": 3,
+    "is_active": true,
+    "created_at": "2025-05-23T05:06:54.039Z",
+    "updated_at": "2025-05-23T10:23:32.710Z",
+    "views": 0
+  }
+},
+{
+  "model": "news.newspost",
+  "pk": 4,
+  "fields": {
+    "title": "introduce ChatGPT 7",
+    "title_en": "introduce ChatGPT 7",
+    "title_si": null,
+    "slug": "introduce-chatgpt-7",
+    "description": "Facebook new version has been released by Faculty of Technology university of Colombo, Mark Sukerberg is Confused and Heart Broken",
+    "description_en": "Facebook new version has been released by Faculty of Technology university of Colombo, Mark Sukerberg is Confused and Heart Broken",
+    "description_si": null,
+    "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33.\r\n\r\n    Finibus Bonorum et Malorum\"(The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "content_en": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33.\r\n\r\n    Finibus Bonorum et Malorum\"(The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "content_si": null,
+    "image": "news_images/conclusion.jpg",
+    "category": 3,
+    "post_type": "NW",
+    "author": 6,
+    "is_active": true,
+    "created_at": "2025-05-23T06:01:55.999Z",
+    "updated_at": "2025-05-23T10:23:24.255Z",
+    "views": 0
+  }
+},
+{
+  "model": "testimonials.testimonial",
+  "pk": 1,
+  "fields": {
+    "student": 7,
+    "name": "Damith",
+    "role": "Fullstack Developer",
+    "avatar": "testimonials/34161c76567e4cd1977e8bc028e0e3f8.png",
+    "quote": "this is the best",
+    "is_active": true,
+    "created_at": "2025-05-28T05:30:02.694Z",
+    "updated_at": "2025-05-28T05:30:02.694Z"
+  }
+},
+{
+  "model": "testimonials.testimonial",
+  "pk": 2,
+  "fields": {
+    "student": null,
+    "name": "Dilmi",
+    "role": "Designer",
+    "avatar": "testimonials/close-humans-human-beings-people-folk-persons-human-human-being-laugh-J9CAD0.jpg",
+    "quote": "i had gained the fundemental Knowledge of User Interfaces and User Expierience Design principles",
+    "is_active": true,
+    "created_at": "2025-05-28T05:43:53.835Z",
+    "updated_at": "2025-05-28T05:43:53.835Z"
+  }
+},
+{
+  "model": "faqs.faq",
+  "pk": 1,
+  "fields": {
+    "question": "Q2: How do i Find Courses",
+    "question_en": "Q2: How do i Find Courses",
+    "question_si": "Q2: කොහොමද කෝස් එකක් හොයන්නෙ ?",
+    "answer": "Use our Course Explorer Section with FIlters to find the Perfect Course for You",
+    "answer_en": "Use our Course Explorer Section with FIlters to find the Perfect Course for You",
+    "answer_si": "අපෙ පාඨමාලා හොයන්න කියන එකෙන් කැමති කෝස් එකක් හොයන්න",
+    "category": "",
+    "category_en": "",
+    "category_si": null,
+    "is_active": true,
+    "display_order": 2,
+    "created_at": "2025-05-28T05:45:46.259Z",
+    "updated_at": "2025-06-15T04:09:48.613Z"
+  }
+},
+{
+  "model": "faqs.faq",
+  "pk": 2,
+  "fields": {
+    "question": "Q1: What's an apprenticeship?",
+    "question_en": "Q1: What's an apprenticeship?",
+    "question_si": "01: මොකක්ද මේ පුහුණුව",
+    "answer": "It's paid, on-the-job training combined with formal study, leading to a recognized qualification.",
+    "answer_en": "It's paid, on-the-job training combined with formal study, leading to a recognized qualification.",
+    "answer_si": "මේකෙන් ඔයාලගෙ කුසලතා අදුරගෙන",
+    "category": "",
+    "category_en": "",
+    "category_si": null,
+    "is_active": true,
+    "display_order": 1,
+    "created_at": "2025-05-28T07:58:48.806Z",
+    "updated_at": "2025-06-15T04:07:45.860Z"
+  }
+},
+{
+  "model": "faqs.faq",
+  "pk": 3,
+  "fields": {
+    "question": "Q3: Who are apprenticeships for?",
+    "question_en": "Q3: Who are apprenticeships for?",
+    "question_si": null,
+    "answer": "School leavers, career changers, or existing employees looking to upskill.",
+    "answer_en": "School leavers, career changers, or existing employees looking to upskill.",
+    "answer_si": null,
+    "category": "",
+    "category_en": "",
+    "category_si": null,
+    "is_active": true,
+    "display_order": 3,
+    "created_at": "2025-05-28T07:59:04.557Z",
+    "updated_at": "2025-05-28T08:00:39.059Z"
+  }
+},
+{
+  "model": "aboutus.boardmember",
+  "pk": 1,
+  "fields": {
+    "name": "Dr Harini Amarasooriya",
+    "name_en": "Dr Harini Amarasooriya",
+    "name_si": null,
+    "position": "minister",
+    "position_en": "minister",
+    "position_si": null,
+    "role": "minister",
+    "role_en": "minister",
+    "role_si": null,
+    "department": "",
+    "department_en": "",
+    "department_si": null,
+    "phone1": "0223 23234",
+    "phone2": "",
+    "email": "hari@gmail.com",
+    "profile_pic": "board_members/close-humans-human-beings-people-folk-persons-human-human-being-laugh-J9CAD0.jpg",
+    "display_order": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "aboutus.boardmember",
+  "pk": 2,
+  "fields": {
+    "name": "Ronald shawn",
+    "name_en": "Ronald shawn",
+    "name_si": null,
+    "position": "deputy",
+    "position_en": "deputy",
+    "position_si": null,
+    "role": "Deputy minister",
+    "role_en": "Deputy minister",
+    "role_si": null,
+    "department": "",
+    "department_en": "",
+    "department_si": null,
+    "phone1": "112 - 3456 788",
+    "phone2": "112 - 3545 -788",
+    "email": "test@gamil.com",
+    "profile_pic": "board_members/cb4749b74d85687e6a13de67c79bd71c.webp",
+    "display_order": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "aboutus.boardmember",
+  "pk": 3,
+  "fields": {
+    "name": "Ronald shawn",
+    "name_en": "Ronald shawn",
+    "name_si": null,
+    "position": "management",
+    "position_en": "management",
+    "position_si": null,
+    "role": "Assistant Director",
+    "role_en": "Assistant Director",
+    "role_si": null,
+    "department": "ICT",
+    "department_en": "ICT",
+    "department_si": null,
+    "phone1": "123 43435",
+    "phone2": "",
+    "email": "test@gamil.com",
+    "profile_pic": "board_members/September-Specials.png",
+    "display_order": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "aboutus.qualitypolicy",
+  "pk": 1,
+  "fields": {
+    "content": "At NAITA, we are committed to delivering industry-recognized technical and vocational training across Sri Lanka. Our mission is to equip youth with the skills and confidence to meet industry standards while optimizing resources for national growth. We adhere to national and international regulations, fostering innovation and continuous improvement in our quality management system.",
+    "content_en": "At NAITA, we are committed to delivering industry-recognized technical and vocational training across Sri Lanka. Our mission is to equip youth with the skills and confidence to meet industry standards while optimizing resources for national growth. We adhere to national and international regulations, fostering innovation and continuous improvement in our quality management system.",
+    "content_si": null,
+    "is_active": true,
+    "last_updated": "2025-05-29T06:16:41.918Z"
+  }
+},
+{
+  "model": "aboutus.objective",
+  "pk": 1,
+  "fields": {
+    "description": "Planning, organizing and providing vocational training.",
+    "description_en": "Planning, organizing and providing vocational training.",
+    "description_si": null,
+    "display_order": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "institutions.institutiontype",
+  "pk": 1,
+  "fields": {
+    "name": "Head office",
+    "name_en": "Head office",
+    "name_si": null,
+    "description": "helloooo",
+    "description_en": "helloooo",
+    "description_si": "අපි"
+  }
+},
+{
+  "model": "institutions.institution",
+  "pk": 1,
+  "fields": {
+    "name": "Badulla",
+    "name_en": "Badulla",
+    "name_si": null,
+    "institution_type": 1,
+    "description": "",
+    "description_en": "",
+    "description_si": null,
+    "type": "DISTRICT",
+    "district": null,
+    "ds_division": null,
+    "city": "Badulla",
+    "city_en": "Badulla",
+    "city_si": null,
+    "address": "nsdflsdf",
+    "address_en": "nsdflsdf",
+    "address_si": null,
+    "email": "123@example.com",
+    "website": "http://naita.lk",
+    "phone1": "22222222222",
+    "phone2": "33333333333",
+    "google_map_link": "https://www.google.com/maps?q=6.8406,79.8656&hl=en&z=16&output=embed",
+    "head_name": "sfdsf",
+    "head_name_en": "sfdsf",
+    "head_name_si": null,
+    "head_position": "dfsdf",
+    "head_position_en": "dfsdf",
+    "head_position_si": null,
+    "image": "institutions/head-office-sample.jpg",
+    "is_active": true,
+    "display_order": 0
+  }
+},
+{
+  "model": "institutions.institution",
+  "pk": 2,
+  "fields": {
+    "name": "Head office",
+    "name_en": "Head office",
+    "name_si": null,
+    "institution_type": 1,
+    "description": "we provide you courses",
+    "description_en": "we provide you courses",
+    "description_si": null,
+    "type": "HEAD",
+    "district": 23,
+    "ds_division": null,
+    "city": "Rajagiriya",
+    "city_en": "Rajagiriya",
+    "city_si": null,
+    "address": "no.971, Sri Jayawardanapura mawatha, Welikada, Rajagiriya",
+    "address_en": "no.971, Sri Jayawardanapura mawatha, Welikada, Rajagiriya",
+    "address_si": null,
+    "email": "naita@gov.lk",
+    "website": "http://www.naita.lk",
+    "phone1": "0112-758-9823",
+    "phone2": "",
+    "google_map_link": "https://www.google.com/maps?q=6.8406,79.8656&hl=en&z=16&output=embed",
+    "head_name": "Mohandiram",
+    "head_name_en": "Mohandiram",
+    "head_name_si": null,
+    "head_position": "Chairman",
+    "head_position_en": "Chairman",
+    "head_position_si": null,
+    "image": "institutions/national-institute-sample-1.webp",
+    "is_active": true,
+    "display_order": 0
+  }
+},
+{
+  "model": "institutions.institution",
+  "pk": 3,
+  "fields": {
+    "name": "Industrial Engineering Training Institute (IETI)",
+    "name_en": "Industrial Engineering Training Institute (IETI)",
+    "name_si": "කාර්මික ඉංජිනේරු පුහුණු ආයතනය",
+    "institution_type": 1,
+    "description": "Focuses on industrial engineering and related skills, including electrical trades.",
+    "description_en": "Focuses on industrial engineering and related skills, including electrical trades.",
+    "description_si": "කාර්මික ඉංජිනේරු විද්‍යාව සහ විදුලි කාර්මික වෘත්තීන් ඇතුළු ඒ ආශ්‍රිත කුසලතා කෙරෙහි අවධානය යොමු කරයි.",
+    "type": "NATIONAL",
+    "district": 23,
+    "ds_division": null,
+    "city": "Katubedda",
+    "city_en": "Katubedda",
+    "city_si": "කටුබැද්ද",
+    "address": "No 581, Gal road, Katubedda, Moratuwa",
+    "address_en": "No 581, Gal road, Katubedda, Moratuwa",
+    "address_si": "අංක 581, ගාල් පාර,කටුබැද්ද, මොරටුව.",
+    "email": "test@gamil.com",
+    "website": "http://naita.lk",
+    "phone1": "123 43435",
+    "phone2": "",
+    "google_map_link": "https://www.google.com/maps?q=6.8406,79.8656&hl=en&z=16&output=embed",
+    "head_name": "Mohandiram",
+    "head_name_en": "Mohandiram",
+    "head_name_si": "නොදනී",
+    "head_position": "Chairman",
+    "head_position_en": "Chairman",
+    "head_position_si": "සභාපති",
+    "image": "institutions/IETI_image.webp",
+    "is_active": true,
+    "display_order": 0
+  }
+},
+{
+  "model": "institutions.institution",
+  "pk": 4,
+  "fields": {
+    "name": "institute 2",
+    "name_en": "institute 2",
+    "name_si": null,
+    "institution_type": 1,
+    "description": "",
+    "description_en": "",
+    "description_si": null,
+    "type": "NATIONAL",
+    "district": 23,
+    "ds_division": null,
+    "city": "colombo",
+    "city_en": "colombo",
+    "city_si": null,
+    "address": "9291, khshi jhkd h;o",
+    "address_en": "9291, khshi jhkd h;o",
+    "address_si": null,
+    "email": "test@gamil.com",
+    "website": "http://naita.lk",
+    "phone1": "123 43435",
+    "phone2": "",
+    "google_map_link": "https://www.google.com/maps?q=6.8406,79.8656&hl=en&z=16&output=embed",
+    "head_name": "Mohandiram",
+    "head_name_en": "Mohandiram",
+    "head_name_si": null,
+    "head_position": "dfsdf",
+    "head_position_en": "dfsdf",
+    "head_position_si": null,
+    "image": "institutions/university.jpg",
+    "is_active": true,
+    "display_order": 0
+  }
+},
+{
+  "model": "institutions.institution",
+  "pk": 5,
+  "fields": {
+    "name": "Colombo Main Center",
+    "name_en": "Colombo Main Center",
+    "name_si": null,
+    "institution_type": null,
+    "description": "",
+    "description_en": "",
+    "description_si": null,
+    "type": "DISTRICT",
+    "district": null,
+    "ds_division": null,
+    "city": "Colombo",
+    "city_en": "Colombo",
+    "city_si": null,
+    "address": "123 Colombo Main Road",
+    "address_en": "123 Colombo Main Road",
+    "address_si": null,
+    "email": "contact@colombomaincenter.com",
+    "website": "",
+    "phone1": "0112345678",
+    "phone2": "",
+    "google_map_link": "",
+    "head_name": "",
+    "head_name_en": "",
+    "head_name_si": null,
+    "head_position": "",
+    "head_position_en": "",
+    "head_position_si": null,
+    "image": "",
+    "is_active": true,
+    "display_order": 0
+  }
+},
+{
+  "model": "institutions.institution",
+  "pk": 6,
+  "fields": {
+    "name": "Kandy Regional Center",
+    "name_en": "Kandy Regional Center",
+    "name_si": null,
+    "institution_type": null,
+    "description": "",
+    "description_en": "",
+    "description_si": null,
+    "type": "DISTRICT",
+    "district": null,
+    "ds_division": null,
+    "city": "Kandy",
+    "city_en": "Kandy",
+    "city_si": null,
+    "address": "123 Kandy Main Road",
+    "address_en": "123 Kandy Main Road",
+    "address_si": null,
+    "email": "contact@kandyregionalcenter.com",
+    "website": "",
+    "phone1": "0112345678",
+    "phone2": "",
+    "google_map_link": "",
+    "head_name": "",
+    "head_name_en": "",
+    "head_name_si": null,
+    "head_position": "",
+    "head_position_en": "",
+    "head_position_si": null,
+    "image": "",
+    "is_active": true,
+    "display_order": 0
+  }
+},
+{
+  "model": "institutions.institution",
+  "pk": 7,
+  "fields": {
+    "name": "Galle District Center",
+    "name_en": "Galle District Center",
+    "name_si": null,
+    "institution_type": 1,
+    "description": "",
+    "description_en": "",
+    "description_si": null,
+    "type": "DISTRICT",
+    "district": 18,
+    "ds_division": null,
+    "city": "Galle",
+    "city_en": "Galle",
+    "city_si": null,
+    "address": "123 Galle Main Road",
+    "address_en": "123 Galle Main Road",
+    "address_si": null,
+    "email": "contact@galledistrictcenter.com",
+    "website": "",
+    "phone1": "0112345678",
+    "phone2": "",
+    "google_map_link": "https://www.google.com/maps?q=6.8406,79.8656&hl=en&z=16&output=embed",
+    "head_name": "sasa",
+    "head_name_en": "sasa",
+    "head_name_si": null,
+    "head_position": "sasasas",
+    "head_position_en": "sasasas",
+    "head_position_si": null,
+    "image": "institutions/university_GUP2Auz.jpg",
+    "is_active": true,
+    "display_order": 0
+  }
+},
+{
+  "model": "institutions.institution",
+  "pk": 8,
+  "fields": {
+    "name": "Institute of Engineering (IET)",
+    "name_en": "Institute of Engineering (IET)",
+    "name_si": "ඉංජිනේරු තාක්ෂණ ආයතනය",
+    "institution_type": 1,
+    "description": "Provides apprenticeship programs in various engineering technologies.",
+    "description_en": "Provides apprenticeship programs in various engineering technologies.",
+    "description_si": "විවිධ ඉංජිනේරු තාක්ෂණයන් සඳහා ආධුනිකත්ව වැඩසටහන් සපයයි.",
+    "type": "NATIONAL",
+    "district": 23,
+    "ds_division": null,
+    "city": "Katunayake",
+    "city_en": "Katunayake",
+    "city_si": "කටුනායක",
+    "address": "Institute of Engineering ,Temple Road, Katunayake",
+    "address_en": "Institute of Engineering ,Temple Road, Katunayake",
+    "address_si": "ඉංජිනේරු ආයතනය,පන්සල පාර, කටුනායක",
+    "email": "info@iet.edu.lk",
+    "website": "https://iet.edu.lk/",
+    "phone1": "+94 11 2 252833",
+    "phone2": "",
+    "google_map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.7369469831115!2d79.87143147405024!3d7.156381915487359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2ee2b2f140ba1%3A0x899414aafb30d97d!2sInstitute%20of%20Engineering%20Technology!5e0!3m2!1sen!2slk!4v1750049519799!5m2!1sen!2slk",
+    "head_name": "unknown",
+    "head_name_en": "unknown",
+    "head_name_si": null,
+    "head_position": "chairman",
+    "head_position_en": "chairman",
+    "head_position_si": "සභාපති",
+    "image": "institutions/house.jpg",
+    "is_active": true,
+    "display_order": 0
+  }
+},
+{
+  "model": "locations.province",
+  "pk": 1,
+  "fields": {
+    "name": "Central Province",
+    "name_en": "Central Province",
+    "name_si": null,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.province",
+  "pk": 2,
+  "fields": {
+    "name": "Eastern Province",
+    "name_en": "Eastern Province",
+    "name_si": null,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.province",
+  "pk": 3,
+  "fields": {
+    "name": "Northern Province",
+    "name_en": "Northern Province",
+    "name_si": null,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.province",
+  "pk": 4,
+  "fields": {
+    "name": "North Central Province",
+    "name_en": "North Central Province",
+    "name_si": null,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.province",
+  "pk": 5,
+  "fields": {
+    "name": "North Western Province",
+    "name_en": "North Western Province",
+    "name_si": null,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.province",
+  "pk": 6,
+  "fields": {
+    "name": "Sabaragamuwa Province",
+    "name_en": "Sabaragamuwa Province",
+    "name_si": null,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.province",
+  "pk": 7,
+  "fields": {
+    "name": "Southern Province",
+    "name_en": "Southern Province",
+    "name_si": null,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.province",
+  "pk": 8,
+  "fields": {
+    "name": "Uva Province",
+    "name_en": "Uva Province",
+    "name_si": null,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.province",
+  "pk": 9,
+  "fields": {
+    "name": "Western Province",
+    "name_en": "Western Province",
+    "name_si": null,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 1,
+  "fields": {
+    "name": "Kandy District",
+    "name_en": "Kandy District",
+    "name_si": null,
+    "province": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 2,
+  "fields": {
+    "name": "Matale District",
+    "name_en": "Matale District",
+    "name_si": null,
+    "province": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 3,
+  "fields": {
+    "name": "Nuwara Eliya District",
+    "name_en": "Nuwara Eliya District",
+    "name_si": null,
+    "province": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 4,
+  "fields": {
+    "name": "Ampara District",
+    "name_en": "Ampara District",
+    "name_si": "අම්පාර දිස්ත්‍රික්කය",
+    "province": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 5,
+  "fields": {
+    "name": "Batticaloa District",
+    "name_en": "Batticaloa District",
+    "name_si": "මඩකලපුව දිස්ත්‍රික්කය",
+    "province": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 6,
+  "fields": {
+    "name": "Trincomalee District",
+    "name_en": "Trincomalee District",
+    "name_si": null,
+    "province": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 7,
+  "fields": {
+    "name": "Jaffna District",
+    "name_en": "Jaffna District",
+    "name_si": null,
+    "province": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 8,
+  "fields": {
+    "name": "Kilinochchi District",
+    "name_en": "Kilinochchi District",
+    "name_si": null,
+    "province": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 9,
+  "fields": {
+    "name": "Mannar District",
+    "name_en": "Mannar District",
+    "name_si": null,
+    "province": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 10,
+  "fields": {
+    "name": "Mullaitivu District",
+    "name_en": "Mullaitivu District",
+    "name_si": null,
+    "province": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 11,
+  "fields": {
+    "name": "Vavuniya District",
+    "name_en": "Vavuniya District",
+    "name_si": null,
+    "province": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 12,
+  "fields": {
+    "name": "Anuradhapura District",
+    "name_en": "Anuradhapura District",
+    "name_si": "අනුරාධපුර දිස්ත්‍රික්කය",
+    "province": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 13,
+  "fields": {
+    "name": "Polonnaruwa District",
+    "name_en": "Polonnaruwa District",
+    "name_si": null,
+    "province": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 14,
+  "fields": {
+    "name": "Kurunegala District",
+    "name_en": "Kurunegala District",
+    "name_si": null,
+    "province": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 15,
+  "fields": {
+    "name": "Puttalam District",
+    "name_en": "Puttalam District",
+    "name_si": null,
+    "province": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 16,
+  "fields": {
+    "name": "Kegalle District",
+    "name_en": "Kegalle District",
+    "name_si": null,
+    "province": 6,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 17,
+  "fields": {
+    "name": "Ratnapura District",
+    "name_en": "Ratnapura District",
+    "name_si": null,
+    "province": 6,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 18,
+  "fields": {
+    "name": "Galle District",
+    "name_en": "Galle District",
+    "name_si": "ගාල්ල දිස්ත්‍රික්කය",
+    "province": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 19,
+  "fields": {
+    "name": "Hambantota District",
+    "name_en": "Hambantota District",
+    "name_si": "හම්බන්තොට දිස්ත්‍රික්කය",
+    "province": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 20,
+  "fields": {
+    "name": "Matara District",
+    "name_en": "Matara District",
+    "name_si": null,
+    "province": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 21,
+  "fields": {
+    "name": "Badulla District",
+    "name_en": "Badulla District",
+    "name_si": "බදුල්ල දිස්ත්‍රික්කය",
+    "province": 8,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 22,
+  "fields": {
+    "name": "Monaragala District",
+    "name_en": "Monaragala District",
+    "name_si": null,
+    "province": 8,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 23,
+  "fields": {
+    "name": "Colombo District",
+    "name_en": "Colombo District",
+    "name_si": "කොළඹ දිස්ත්‍රික්කය",
+    "province": 9,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 24,
+  "fields": {
+    "name": "Gampaha District",
+    "name_en": "Gampaha District",
+    "name_si": "ගම්පහ දිස්ත්‍රික්කය",
+    "province": 9,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.district",
+  "pk": 25,
+  "fields": {
+    "name": "Kalutara District",
+    "name_en": "Kalutara District",
+    "name_si": null,
+    "province": 9,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 1,
+  "fields": {
+    "name": "Akurana",
+    "name_en": "Akurana",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 2,
+  "fields": {
+    "name": "Delthota",
+    "name_en": "Delthota",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 3,
+  "fields": {
+    "name": "Doluwa",
+    "name_en": "Doluwa",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 4,
+  "fields": {
+    "name": "Gangawata Korale",
+    "name_en": "Gangawata Korale",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 5,
+  "fields": {
+    "name": "Ganga Ihala Korale",
+    "name_en": "Ganga Ihala Korale",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 6,
+  "fields": {
+    "name": "Harispattuwa",
+    "name_en": "Harispattuwa",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 7,
+  "fields": {
+    "name": "Hatharaliyadda",
+    "name_en": "Hatharaliyadda",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 8,
+  "fields": {
+    "name": "Kundasale",
+    "name_en": "Kundasale",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 9,
+  "fields": {
+    "name": "Medadumbara",
+    "name_en": "Medadumbara",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 10,
+  "fields": {
+    "name": "Minipe",
+    "name_en": "Minipe",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 11,
+  "fields": {
+    "name": "Panvila",
+    "name_en": "Panvila",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 12,
+  "fields": {
+    "name": "Pasbage Korale",
+    "name_en": "Pasbage Korale",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 13,
+  "fields": {
+    "name": "Pathadumbara",
+    "name_en": "Pathadumbara",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 14,
+  "fields": {
+    "name": "Pathahewaheta",
+    "name_en": "Pathahewaheta",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 15,
+  "fields": {
+    "name": "Poojapitiya",
+    "name_en": "Poojapitiya",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 16,
+  "fields": {
+    "name": "Thumpane",
+    "name_en": "Thumpane",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 17,
+  "fields": {
+    "name": "Udadumbara",
+    "name_en": "Udadumbara",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 18,
+  "fields": {
+    "name": "Udapalatha",
+    "name_en": "Udapalatha",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 19,
+  "fields": {
+    "name": "Udunuwara",
+    "name_en": "Udunuwara",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 20,
+  "fields": {
+    "name": "Yatinuwara",
+    "name_en": "Yatinuwara",
+    "name_si": null,
+    "district": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 21,
+  "fields": {
+    "name": "Ambanganga Korale",
+    "name_en": "Ambanganga Korale",
+    "name_si": null,
+    "district": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 22,
+  "fields": {
+    "name": "Dambulla",
+    "name_en": "Dambulla",
+    "name_si": null,
+    "district": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 23,
+  "fields": {
+    "name": "Galewela",
+    "name_en": "Galewela",
+    "name_si": null,
+    "district": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 24,
+  "fields": {
+    "name": "Laggala-Pallegama",
+    "name_en": "Laggala-Pallegama",
+    "name_si": null,
+    "district": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 25,
+  "fields": {
+    "name": "Matale",
+    "name_en": "Matale",
+    "name_si": null,
+    "district": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 26,
+  "fields": {
+    "name": "Naula",
+    "name_en": "Naula",
+    "name_si": null,
+    "district": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 27,
+  "fields": {
+    "name": "Pallepola",
+    "name_en": "Pallepola",
+    "name_si": null,
+    "district": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 28,
+  "fields": {
+    "name": "Ukuwela",
+    "name_en": "Ukuwela",
+    "name_si": null,
+    "district": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 29,
+  "fields": {
+    "name": "Wilgamuwa",
+    "name_en": "Wilgamuwa",
+    "name_si": null,
+    "district": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 30,
+  "fields": {
+    "name": "Yatawatta",
+    "name_en": "Yatawatta",
+    "name_si": null,
+    "district": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 31,
+  "fields": {
+    "name": "Ambagamuwa",
+    "name_en": "Ambagamuwa",
+    "name_si": null,
+    "district": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 32,
+  "fields": {
+    "name": "Kotmale",
+    "name_en": "Kotmale",
+    "name_si": null,
+    "district": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 33,
+  "fields": {
+    "name": "Nuwara Eliya",
+    "name_en": "Nuwara Eliya",
+    "name_si": null,
+    "district": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 34,
+  "fields": {
+    "name": "Walapane",
+    "name_en": "Walapane",
+    "name_si": null,
+    "district": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 35,
+  "fields": {
+    "name": "Addalaichenai",
+    "name_en": "Addalaichenai",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 36,
+  "fields": {
+    "name": "Akkaraipattu",
+    "name_en": "Akkaraipattu",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 37,
+  "fields": {
+    "name": "Ampara",
+    "name_en": "Ampara",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 38,
+  "fields": {
+    "name": "Damana",
+    "name_en": "Damana",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 39,
+  "fields": {
+    "name": "Dehiattakandiya",
+    "name_en": "Dehiattakandiya",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 40,
+  "fields": {
+    "name": "Eragama",
+    "name_en": "Eragama",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 41,
+  "fields": {
+    "name": "Kalmunai",
+    "name_en": "Kalmunai",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 42,
+  "fields": {
+    "name": "Kalmunai Muslim",
+    "name_en": "Kalmunai Muslim",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 43,
+  "fields": {
+    "name": "Karaitivu",
+    "name_en": "Karaitivu",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 44,
+  "fields": {
+    "name": "Lahugala",
+    "name_en": "Lahugala",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 45,
+  "fields": {
+    "name": "Maha Oya",
+    "name_en": "Maha Oya",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 46,
+  "fields": {
+    "name": "Navithanveli",
+    "name_en": "Navithanveli",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 47,
+  "fields": {
+    "name": "Ninthavur",
+    "name_en": "Ninthavur",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 48,
+  "fields": {
+    "name": "Padiyathalawa",
+    "name_en": "Padiyathalawa",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 49,
+  "fields": {
+    "name": "Sammanthurai",
+    "name_en": "Sammanthurai",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 50,
+  "fields": {
+    "name": "Thirukkovil",
+    "name_en": "Thirukkovil",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 51,
+  "fields": {
+    "name": "Uhana",
+    "name_en": "Uhana",
+    "name_si": null,
+    "district": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 52,
+  "fields": {
+    "name": "Chenkalady",
+    "name_en": "Chenkalady",
+    "name_si": null,
+    "district": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 53,
+  "fields": {
+    "name": "Eravur Pattu",
+    "name_en": "Eravur Pattu",
+    "name_si": null,
+    "district": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 54,
+  "fields": {
+    "name": "Eravur Town",
+    "name_en": "Eravur Town",
+    "name_si": null,
+    "district": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 55,
+  "fields": {
+    "name": "Kattankudy",
+    "name_en": "Kattankudy",
+    "name_si": null,
+    "district": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 56,
+  "fields": {
+    "name": "Koralai Pattu",
+    "name_en": "Koralai Pattu",
+    "name_si": null,
+    "district": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 57,
+  "fields": {
+    "name": "Koralai Pattu North",
+    "name_en": "Koralai Pattu North",
+    "name_si": null,
+    "district": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 58,
+  "fields": {
+    "name": "Koralai Pattu South",
+    "name_en": "Koralai Pattu South",
+    "name_si": null,
+    "district": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 59,
+  "fields": {
+    "name": "Manmunai North",
+    "name_en": "Manmunai North",
+    "name_si": null,
+    "district": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 60,
+  "fields": {
+    "name": "Manmunai Pattu",
+    "name_en": "Manmunai Pattu",
+    "name_si": null,
+    "district": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 61,
+  "fields": {
+    "name": "Manmunai South-West",
+    "name_en": "Manmunai South-West",
+    "name_si": null,
+    "district": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 62,
+  "fields": {
+    "name": "Manmunai West",
+    "name_en": "Manmunai West",
+    "name_si": null,
+    "district": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 63,
+  "fields": {
+    "name": "Paddiruppu",
+    "name_en": "Paddiruppu",
+    "name_si": null,
+    "district": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 64,
+  "fields": {
+    "name": "Vakarai",
+    "name_en": "Vakarai",
+    "name_si": null,
+    "district": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 65,
+  "fields": {
+    "name": "Valachchenai",
+    "name_en": "Valachchenai",
+    "name_si": null,
+    "district": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 66,
+  "fields": {
+    "name": "Gomarankadawala",
+    "name_en": "Gomarankadawala",
+    "name_si": null,
+    "district": 6,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 67,
+  "fields": {
+    "name": "Kanthale",
+    "name_en": "Kanthale",
+    "name_si": null,
+    "district": 6,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 68,
+  "fields": {
+    "name": "Kinniya",
+    "name_en": "Kinniya",
+    "name_si": null,
+    "district": 6,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 69,
+  "fields": {
+    "name": "Kuchchaweli",
+    "name_en": "Kuchchaweli",
+    "name_si": null,
+    "district": 6,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 70,
+  "fields": {
+    "name": "Muttur",
+    "name_en": "Muttur",
+    "name_si": null,
+    "district": 6,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 71,
+  "fields": {
+    "name": "Padavi Sri Pura",
+    "name_en": "Padavi Sri Pura",
+    "name_si": null,
+    "district": 6,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 72,
+  "fields": {
+    "name": "Seruvila",
+    "name_en": "Seruvila",
+    "name_si": null,
+    "district": 6,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 73,
+  "fields": {
+    "name": "Thambalagamuwa",
+    "name_en": "Thambalagamuwa",
+    "name_si": null,
+    "district": 6,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 74,
+  "fields": {
+    "name": "Trincomalee Town and Gravets",
+    "name_en": "Trincomalee Town and Gravets",
+    "name_si": null,
+    "district": 6,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 75,
+  "fields": {
+    "name": "Verugal",
+    "name_en": "Verugal",
+    "name_si": null,
+    "district": 6,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 76,
+  "fields": {
+    "name": "Delft",
+    "name_en": "Delft",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 77,
+  "fields": {
+    "name": "Islands North",
+    "name_en": "Islands North",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 78,
+  "fields": {
+    "name": "Islands South",
+    "name_en": "Islands South",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 79,
+  "fields": {
+    "name": "Jaffna",
+    "name_en": "Jaffna",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 80,
+  "fields": {
+    "name": "Karainagar",
+    "name_en": "Karainagar",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 81,
+  "fields": {
+    "name": "Nallur",
+    "name_en": "Nallur",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 82,
+  "fields": {
+    "name": "Thenmarachchi",
+    "name_en": "Thenmarachchi",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 83,
+  "fields": {
+    "name": "Vadamarachchi East",
+    "name_en": "Vadamarachchi East",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 84,
+  "fields": {
+    "name": "Vadamarachchi North",
+    "name_en": "Vadamarachchi North",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 85,
+  "fields": {
+    "name": "Vadamarachchi South-West",
+    "name_en": "Vadamarachchi South-West",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 86,
+  "fields": {
+    "name": "Valikamam East",
+    "name_en": "Valikamam East",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 87,
+  "fields": {
+    "name": "Valikamam North",
+    "name_en": "Valikamam North",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 88,
+  "fields": {
+    "name": "Valikamam South",
+    "name_en": "Valikamam South",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 89,
+  "fields": {
+    "name": "Valikamam South-West",
+    "name_en": "Valikamam South-West",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 90,
+  "fields": {
+    "name": "Valikamam West",
+    "name_en": "Valikamam West",
+    "name_si": null,
+    "district": 7,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 91,
+  "fields": {
+    "name": "Kandavalai",
+    "name_en": "Kandavalai",
+    "name_si": null,
+    "district": 8,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 92,
+  "fields": {
+    "name": "Karachchi",
+    "name_en": "Karachchi",
+    "name_si": null,
+    "district": 8,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 93,
+  "fields": {
+    "name": "Pachchilaipalli",
+    "name_en": "Pachchilaipalli",
+    "name_si": null,
+    "district": 8,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 94,
+  "fields": {
+    "name": "Poonakary",
+    "name_en": "Poonakary",
+    "name_si": null,
+    "district": 8,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 95,
+  "fields": {
+    "name": "Madhu",
+    "name_en": "Madhu",
+    "name_si": null,
+    "district": 9,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 96,
+  "fields": {
+    "name": "Mannar Town",
+    "name_en": "Mannar Town",
+    "name_si": null,
+    "district": 9,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 97,
+  "fields": {
+    "name": "Manthai East",
+    "name_en": "Manthai East",
+    "name_si": null,
+    "district": 9,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 98,
+  "fields": {
+    "name": "Manthai West",
+    "name_en": "Manthai West",
+    "name_si": null,
+    "district": 9,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 99,
+  "fields": {
+    "name": "Nanattan",
+    "name_en": "Nanattan",
+    "name_si": null,
+    "district": 9,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 100,
+  "fields": {
+    "name": "Musali",
+    "name_en": "Musali",
+    "name_si": null,
+    "district": 9,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 101,
+  "fields": {
+    "name": "Manthai East",
+    "name_en": "Manthai East",
+    "name_si": null,
+    "district": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 102,
+  "fields": {
+    "name": "Maritimepattu",
+    "name_en": "Maritimepattu",
+    "name_si": null,
+    "district": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 103,
+  "fields": {
+    "name": "Oddusuddan",
+    "name_en": "Oddusuddan",
+    "name_si": null,
+    "district": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 104,
+  "fields": {
+    "name": "Puthukudiyiruppu",
+    "name_en": "Puthukudiyiruppu",
+    "name_si": null,
+    "district": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 105,
+  "fields": {
+    "name": "Thunukkai",
+    "name_en": "Thunukkai",
+    "name_si": null,
+    "district": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 106,
+  "fields": {
+    "name": "Welioya",
+    "name_en": "Welioya",
+    "name_si": null,
+    "district": 10,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 107,
+  "fields": {
+    "name": "Vavuniya",
+    "name_en": "Vavuniya",
+    "name_si": null,
+    "district": 11,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 108,
+  "fields": {
+    "name": "Vavuniya North",
+    "name_en": "Vavuniya North",
+    "name_si": null,
+    "district": 11,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 109,
+  "fields": {
+    "name": "Vavuniya South",
+    "name_en": "Vavuniya South",
+    "name_si": null,
+    "district": 11,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 110,
+  "fields": {
+    "name": "Vengalacheddikulam",
+    "name_en": "Vengalacheddikulam",
+    "name_si": null,
+    "district": 11,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 111,
+  "fields": {
+    "name": "Anuradhapura",
+    "name_en": "Anuradhapura",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 112,
+  "fields": {
+    "name": "Galenbindunuwewa",
+    "name_en": "Galenbindunuwewa",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 113,
+  "fields": {
+    "name": "Galnewa",
+    "name_en": "Galnewa",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 114,
+  "fields": {
+    "name": "Horowpothana",
+    "name_en": "Horowpothana",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 115,
+  "fields": {
+    "name": "Kahatagasdigiliya",
+    "name_en": "Kahatagasdigiliya",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 116,
+  "fields": {
+    "name": "Kebithigollewa",
+    "name_en": "Kebithigollewa",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 117,
+  "fields": {
+    "name": "Kekirawa",
+    "name_en": "Kekirawa",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 118,
+  "fields": {
+    "name": "Mihinthale",
+    "name_en": "Mihinthale",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 119,
+  "fields": {
+    "name": "Nachchaduwa",
+    "name_en": "Nachchaduwa",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 120,
+  "fields": {
+    "name": "Nochchiyagama",
+    "name_en": "Nochchiyagama",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 121,
+  "fields": {
+    "name": "Nuwaragam Palatha Central",
+    "name_en": "Nuwaragam Palatha Central",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 122,
+  "fields": {
+    "name": "Nuwaragam Palatha East",
+    "name_en": "Nuwaragam Palatha East",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 123,
+  "fields": {
+    "name": "Padaviya",
+    "name_en": "Padaviya",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 124,
+  "fields": {
+    "name": "Palagala",
+    "name_en": "Palagala",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 125,
+  "fields": {
+    "name": "Palugaswewa",
+    "name_en": "Palugaswewa",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 126,
+  "fields": {
+    "name": "Rajanganaya",
+    "name_en": "Rajanganaya",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 127,
+  "fields": {
+    "name": "Rambewa",
+    "name_en": "Rambewa",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 128,
+  "fields": {
+    "name": "Thalawa",
+    "name_en": "Thalawa",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 129,
+  "fields": {
+    "name": "Thirappane",
+    "name_en": "Thirappane",
+    "name_si": null,
+    "district": 12,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 130,
+  "fields": {
+    "name": "Dimbulagala",
+    "name_en": "Dimbulagala",
+    "name_si": null,
+    "district": 13,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 131,
+  "fields": {
+    "name": "Elahera",
+    "name_en": "Elahera",
+    "name_si": null,
+    "district": 13,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 132,
+  "fields": {
+    "name": "Hingurakgoda",
+    "name_en": "Hingurakgoda",
+    "name_si": null,
+    "district": 13,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 133,
+  "fields": {
+    "name": "Lankapura",
+    "name_en": "Lankapura",
+    "name_si": null,
+    "district": 13,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 134,
+  "fields": {
+    "name": "Medirigiriya",
+    "name_en": "Medirigiriya",
+    "name_si": null,
+    "district": 13,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 135,
+  "fields": {
+    "name": "Thamankaduwa",
+    "name_en": "Thamankaduwa",
+    "name_si": null,
+    "district": 13,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 136,
+  "fields": {
+    "name": "Welikanda",
+    "name_en": "Welikanda",
+    "name_si": null,
+    "district": 13,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 137,
+  "fields": {
+    "name": "Alawwa",
+    "name_en": "Alawwa",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 138,
+  "fields": {
+    "name": "Ambanpola",
+    "name_en": "Ambanpola",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 139,
+  "fields": {
+    "name": "Arachchikattuwa",
+    "name_en": "Arachchikattuwa",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 140,
+  "fields": {
+    "name": "Bingiriya",
+    "name_en": "Bingiriya",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 141,
+  "fields": {
+    "name": "Ehetuwewa",
+    "name_en": "Ehetuwewa",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 142,
+  "fields": {
+    "name": "Galgamuwa",
+    "name_en": "Galgamuwa",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 143,
+  "fields": {
+    "name": "Ganewatta",
+    "name_en": "Ganewatta",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 144,
+  "fields": {
+    "name": "Ibbagamuwa",
+    "name_en": "Ibbagamuwa",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 145,
+  "fields": {
+    "name": "Katugampola",
+    "name_en": "Katugampola",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 146,
+  "fields": {
+    "name": "Kobeigane",
+    "name_en": "Kobeigane",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 147,
+  "fields": {
+    "name": "Kuliyapitiya East",
+    "name_en": "Kuliyapitiya East",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 148,
+  "fields": {
+    "name": "Kuliyapitiya West",
+    "name_en": "Kuliyapitiya West",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 149,
+  "fields": {
+    "name": "Maho",
+    "name_en": "Maho",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 150,
+  "fields": {
+    "name": "Mallawapitiya",
+    "name_en": "Mallawapitiya",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 151,
+  "fields": {
+    "name": "Maspatha",
+    "name_en": "Maspatha",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 152,
+  "fields": {
+    "name": "Mawathagama",
+    "name_en": "Mawathagama",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 153,
+  "fields": {
+    "name": "Narammala",
+    "name_en": "Narammala",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 154,
+  "fields": {
+    "name": "Nikaweratiya",
+    "name_en": "Nikaweratiya",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 155,
+  "fields": {
+    "name": "Panduwasnuwara East",
+    "name_en": "Panduwasnuwara East",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 156,
+  "fields": {
+    "name": "Panduwasnuwara West",
+    "name_en": "Panduwasnuwara West",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 157,
+  "fields": {
+    "name": "Pannala",
+    "name_en": "Pannala",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 158,
+  "fields": {
+    "name": "Polgahawela",
+    "name_en": "Polgahawela",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 159,
+  "fields": {
+    "name": "Pothuhera",
+    "name_en": "Pothuhera",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 160,
+  "fields": {
+    "name": "Rasnayakapura",
+    "name_en": "Rasnayakapura",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 161,
+  "fields": {
+    "name": "Ridiyagama",
+    "name_en": "Ridiyagama",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 162,
+  "fields": {
+    "name": "Udubaddawa",
+    "name_en": "Udubaddawa",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 163,
+  "fields": {
+    "name": "Wariyapola",
+    "name_en": "Wariyapola",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 164,
+  "fields": {
+    "name": "Weerambugedara",
+    "name_en": "Weerambugedara",
+    "name_si": null,
+    "district": 14,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 165,
+  "fields": {
+    "name": "Anamaduwa",
+    "name_en": "Anamaduwa",
+    "name_si": null,
+    "district": 15,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 166,
+  "fields": {
+    "name": "Arachchikattuwa",
+    "name_en": "Arachchikattuwa",
+    "name_si": null,
+    "district": 15,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 167,
+  "fields": {
+    "name": "Chilaw",
+    "name_en": "Chilaw",
+    "name_si": null,
+    "district": 15,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 168,
+  "fields": {
+    "name": "Dankotuwa",
+    "name_en": "Dankotuwa",
+    "name_si": null,
+    "district": 15,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 169,
+  "fields": {
+    "name": "Kalpitiya",
+    "name_en": "Kalpitiya",
+    "name_si": null,
+    "district": 15,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 170,
+  "fields": {
+    "name": "Madampe",
+    "name_en": "Madampe",
+    "name_si": null,
+    "district": 15,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 171,
+  "fields": {
+    "name": "Mahakumbukkadawala",
+    "name_en": "Mahakumbukkadawala",
+    "name_si": null,
+    "district": 15,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 172,
+  "fields": {
+    "name": "Mundel",
+    "name_en": "Mundel",
+    "name_si": null,
+    "district": 15,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 173,
+  "fields": {
+    "name": "Nattandiya",
+    "name_en": "Nattandiya",
+    "name_si": null,
+    "district": 15,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 174,
+  "fields": {
+    "name": "Pallama",
+    "name_en": "Pallama",
+    "name_si": null,
+    "district": 15,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 175,
+  "fields": {
+    "name": "Puttalam",
+    "name_en": "Puttalam",
+    "name_si": null,
+    "district": 15,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 176,
+  "fields": {
+    "name": "Wennappuwa",
+    "name_en": "Wennappuwa",
+    "name_si": null,
+    "district": 15,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 177,
+  "fields": {
+    "name": "Aranayake",
+    "name_en": "Aranayake",
+    "name_si": null,
+    "district": 16,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 178,
+  "fields": {
+    "name": "Bulathkohupitiya",
+    "name_en": "Bulathkohupitiya",
+    "name_si": null,
+    "district": 16,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 179,
+  "fields": {
+    "name": "Dehiowita",
+    "name_en": "Dehiowita",
+    "name_si": null,
+    "district": 16,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 180,
+  "fields": {
+    "name": "Deraniyagala",
+    "name_en": "Deraniyagala",
+    "name_si": null,
+    "district": 16,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 181,
+  "fields": {
+    "name": "Galigamuwa",
+    "name_en": "Galigamuwa",
+    "name_si": null,
+    "district": 16,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 182,
+  "fields": {
+    "name": "Kegalle",
+    "name_en": "Kegalle",
+    "name_si": null,
+    "district": 16,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 183,
+  "fields": {
+    "name": "Mawanella",
+    "name_en": "Mawanella",
+    "name_si": null,
+    "district": 16,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 184,
+  "fields": {
+    "name": "Rambukkana",
+    "name_en": "Rambukkana",
+    "name_si": null,
+    "district": 16,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 185,
+  "fields": {
+    "name": "Ruwanwella",
+    "name_en": "Ruwanwella",
+    "name_si": null,
+    "district": 16,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 186,
+  "fields": {
+    "name": "Warakapola",
+    "name_en": "Warakapola",
+    "name_si": null,
+    "district": 16,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 187,
+  "fields": {
+    "name": "Yatiyantota",
+    "name_en": "Yatiyantota",
+    "name_si": null,
+    "district": 16,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 188,
+  "fields": {
+    "name": "Ayagama",
+    "name_en": "Ayagama",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 189,
+  "fields": {
+    "name": "Balangoda",
+    "name_en": "Balangoda",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 190,
+  "fields": {
+    "name": "Eheliyagoda",
+    "name_en": "Eheliyagoda",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 191,
+  "fields": {
+    "name": "Elapatha",
+    "name_en": "Elapatha",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 192,
+  "fields": {
+    "name": "Godakawela",
+    "name_en": "Godakawela",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 193,
+  "fields": {
+    "name": "Imbulpe",
+    "name_en": "Imbulpe",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 194,
+  "fields": {
+    "name": "Kahawatta",
+    "name_en": "Kahawatta",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 195,
+  "fields": {
+    "name": "Kalawana",
+    "name_en": "Kalawana",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 196,
+  "fields": {
+    "name": "Kuruwita",
+    "name_en": "Kuruwita",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 197,
+  "fields": {
+    "name": "Nivitigala",
+    "name_en": "Nivitigala",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 198,
+  "fields": {
+    "name": "Pelmadulla",
+    "name_en": "Pelmadulla",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 199,
+  "fields": {
+    "name": "Opanayake",
+    "name_en": "Opanayake",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 200,
+  "fields": {
+    "name": "Ratnapura",
+    "name_en": "Ratnapura",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 201,
+  "fields": {
+    "name": "Waraka",
+    "name_en": "Waraka",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 202,
+  "fields": {
+    "name": "Welipitiya",
+    "name_en": "Welipitiya",
+    "name_si": null,
+    "district": 17,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 203,
+  "fields": {
+    "name": "Akmeemana",
+    "name_en": "Akmeemana",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 204,
+  "fields": {
+    "name": "Ambalangoda",
+    "name_en": "Ambalangoda",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 205,
+  "fields": {
+    "name": "Baddegama",
+    "name_en": "Baddegama",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 206,
+  "fields": {
+    "name": "Balapitiya",
+    "name_en": "Balapitiya",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 207,
+  "fields": {
+    "name": "Bentota",
+    "name_en": "Bentota",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 208,
+  "fields": {
+    "name": "Bope-Poddala",
+    "name_en": "Bope-Poddala",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 209,
+  "fields": {
+    "name": "Elpitiya",
+    "name_en": "Elpitiya",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 210,
+  "fields": {
+    "name": "Galle Four Gravets",
+    "name_en": "Galle Four Gravets",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 211,
+  "fields": {
+    "name": "Gonapinuwala",
+    "name_en": "Gonapinuwala",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 212,
+  "fields": {
+    "name": "Habaraduwa",
+    "name_en": "Habaraduwa",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 213,
+  "fields": {
+    "name": "Hikkaduwa",
+    "name_en": "Hikkaduwa",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 214,
+  "fields": {
+    "name": "Imaduwa",
+    "name_en": "Imaduwa",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 215,
+  "fields": {
+    "name": "Karandeniya",
+    "name_en": "Karandeniya",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 216,
+  "fields": {
+    "name": "Nagoda",
+    "name_en": "Nagoda",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 217,
+  "fields": {
+    "name": "Nelukdeniya",
+    "name_en": "Nelukdeniya",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 218,
+  "fields": {
+    "name": "Niyagama",
+    "name_en": "Niyagama",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 219,
+  "fields": {
+    "name": "Thawalama",
+    "name_en": "Thawalama",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 220,
+  "fields": {
+    "name": "Yakkalamulla",
+    "name_en": "Yakkalamulla",
+    "name_si": null,
+    "district": 18,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 221,
+  "fields": {
+    "name": "Ambalantota",
+    "name_en": "Ambalantota",
+    "name_si": null,
+    "district": 19,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 222,
+  "fields": {
+    "name": "Angunukolapelessa",
+    "name_en": "Angunukolapelessa",
+    "name_si": null,
+    "district": 19,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 223,
+  "fields": {
+    "name": "Beliatta",
+    "name_en": "Beliatta",
+    "name_si": null,
+    "district": 19,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 224,
+  "fields": {
+    "name": "Hambantota",
+    "name_en": "Hambantota",
+    "name_si": null,
+    "district": 19,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 225,
+  "fields": {
+    "name": "Katuwana",
+    "name_en": "Katuwana",
+    "name_si": null,
+    "district": 19,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 226,
+  "fields": {
+    "name": "Lunugamwehera",
+    "name_en": "Lunugamwehera",
+    "name_si": null,
+    "district": 19,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 227,
+  "fields": {
+    "name": "Nonagama",
+    "name_en": "Nonagama",
+    "name_si": null,
+    "district": 19,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 228,
+  "fields": {
+    "name": "Okewela",
+    "name_en": "Okewela",
+    "name_si": null,
+    "district": 19,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 229,
+  "fields": {
+    "name": "Sooriyawewa",
+    "name_en": "Sooriyawewa",
+    "name_si": null,
+    "district": 19,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 230,
+  "fields": {
+    "name": "Tangalle",
+    "name_en": "Tangalle",
+    "name_si": null,
+    "district": 19,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 231,
+  "fields": {
+    "name": "Tissamaharama",
+    "name_en": "Tissamaharama",
+    "name_si": null,
+    "district": 19,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 232,
+  "fields": {
+    "name": "Walasmulla",
+    "name_en": "Walasmulla",
+    "name_si": null,
+    "district": 19,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 233,
+  "fields": {
+    "name": "Weeraketiya",
+    "name_en": "Weeraketiya",
+    "name_si": null,
+    "district": 19,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 234,
+  "fields": {
+    "name": "Akuressa",
+    "name_en": "Akuressa",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 235,
+  "fields": {
+    "name": "Athuraliya",
+    "name_en": "Athuraliya",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 236,
+  "fields": {
+    "name": "Devinuwara",
+    "name_en": "Devinuwara",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 237,
+  "fields": {
+    "name": "Dickwella",
+    "name_en": "Dickwella",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 238,
+  "fields": {
+    "name": "Deniyaya",
+    "name_en": "Deniyaya",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 239,
+  "fields": {
+    "name": "Gandara",
+    "name_en": "Gandara",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 240,
+  "fields": {
+    "name": "Hakmana",
+    "name_en": "Hakmana",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 241,
+  "fields": {
+    "name": "Kamburupitiya",
+    "name_en": "Kamburupitiya",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 242,
+  "fields": {
+    "name": "Kirinda Puhulwella",
+    "name_en": "Kirinda Puhulwella",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 243,
+  "fields": {
+    "name": "Kotapola",
+    "name_en": "Kotapola",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 244,
+  "fields": {
+    "name": "Malimbada",
+    "name_en": "Malimbada",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 245,
+  "fields": {
+    "name": "Matara Four Gravets",
+    "name_en": "Matara Four Gravets",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 246,
+  "fields": {
+    "name": "Mulatiyana",
+    "name_en": "Mulatiyana",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 247,
+  "fields": {
+    "name": "Pasgoda",
+    "name_en": "Pasgoda",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 248,
+  "fields": {
+    "name": "Pitabeddara",
+    "name_en": "Pitabeddara",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 249,
+  "fields": {
+    "name": "Thihagoda",
+    "name_en": "Thihagoda",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 250,
+  "fields": {
+    "name": "Weligama",
+    "name_en": "Weligama",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 251,
+  "fields": {
+    "name": "Weeraketiya",
+    "name_en": "Weeraketiya",
+    "name_si": null,
+    "district": 20,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 252,
+  "fields": {
+    "name": "Badulla",
+    "name_en": "Badulla",
+    "name_si": null,
+    "district": 21,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 253,
+  "fields": {
+    "name": "Bandarawela",
+    "name_en": "Bandarawela",
+    "name_si": null,
+    "district": 21,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 254,
+  "fields": {
+    "name": "Ella",
+    "name_en": "Ella",
+    "name_si": null,
+    "district": 21,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 255,
+  "fields": {
+    "name": "Haldummulla",
+    "name_en": "Haldummulla",
+    "name_si": null,
+    "district": 21,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 256,
+  "fields": {
+    "name": "Hali-Ela",
+    "name_en": "Hali-Ela",
+    "name_si": null,
+    "district": 21,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 257,
+  "fields": {
+    "name": "Kandaketiya",
+    "name_en": "Kandaketiya",
+    "name_si": null,
+    "district": 21,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 258,
+  "fields": {
+    "name": "Lunugala",
+    "name_en": "Lunugala",
+    "name_si": null,
+    "district": 21,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 259,
+  "fields": {
+    "name": "Mahiyanganaya",
+    "name_en": "Mahiyanganaya",
+    "name_si": null,
+    "district": 21,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 260,
+  "fields": {
+    "name": "Meegahakiula",
+    "name_en": "Meegahakiula",
+    "name_si": null,
+    "district": 21,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 261,
+  "fields": {
+    "name": "Passara",
+    "name_en": "Passara",
+    "name_si": null,
+    "district": 21,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 262,
+  "fields": {
+    "name": "Rideemaliyadda",
+    "name_en": "Rideemaliyadda",
+    "name_si": null,
+    "district": 21,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 263,
+  "fields": {
+    "name": "Soranathota",
+    "name_en": "Soranathota",
+    "name_si": null,
+    "district": 21,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 264,
+  "fields": {
+    "name": "Uva Paranagama",
+    "name_en": "Uva Paranagama",
+    "name_si": null,
+    "district": 21,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 265,
+  "fields": {
+    "name": "Welamada",
+    "name_en": "Welamada",
+    "name_si": null,
+    "district": 21,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 266,
+  "fields": {
+    "name": "Badalkumbura",
+    "name_en": "Badalkumbura",
+    "name_si": null,
+    "district": 22,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 267,
+  "fields": {
+    "name": "Bibile",
+    "name_en": "Bibile",
+    "name_si": null,
+    "district": 22,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 268,
+  "fields": {
+    "name": "Buttala",
+    "name_en": "Buttala",
+    "name_si": null,
+    "district": 22,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 269,
+  "fields": {
+    "name": "Katharagama",
+    "name_en": "Katharagama",
+    "name_si": null,
+    "district": 22,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 270,
+  "fields": {
+    "name": "Madulla",
+    "name_en": "Madulla",
+    "name_si": null,
+    "district": 22,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 271,
+  "fields": {
+    "name": "Medagama",
+    "name_en": "Medagama",
+    "name_si": null,
+    "district": 22,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 272,
+  "fields": {
+    "name": "Monaragala",
+    "name_en": "Monaragala",
+    "name_si": null,
+    "district": 22,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 273,
+  "fields": {
+    "name": "Sevanagala",
+    "name_en": "Sevanagala",
+    "name_si": null,
+    "district": 22,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 274,
+  "fields": {
+    "name": "Siyambalanduwa",
+    "name_en": "Siyambalanduwa",
+    "name_si": null,
+    "district": 22,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 275,
+  "fields": {
+    "name": "Thanamalwila",
+    "name_en": "Thanamalwila",
+    "name_si": null,
+    "district": 22,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 276,
+  "fields": {
+    "name": "Wellawaya",
+    "name_en": "Wellawaya",
+    "name_si": null,
+    "district": 22,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 277,
+  "fields": {
+    "name": "Colombo",
+    "name_en": "Colombo",
+    "name_si": null,
+    "district": 23,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 278,
+  "fields": {
+    "name": "Dehiwala",
+    "name_en": "Dehiwala",
+    "name_si": null,
+    "district": 23,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 279,
+  "fields": {
+    "name": "Homagama",
+    "name_en": "Homagama",
+    "name_si": null,
+    "district": 23,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 280,
+  "fields": {
+    "name": "Kaduwela",
+    "name_en": "Kaduwela",
+    "name_si": null,
+    "district": 23,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 281,
+  "fields": {
+    "name": "Kolonnawa",
+    "name_en": "Kolonnawa",
+    "name_si": null,
+    "district": 23,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 282,
+  "fields": {
+    "name": "Maharagama",
+    "name_en": "Maharagama",
+    "name_si": null,
+    "district": 23,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 283,
+  "fields": {
+    "name": "Moratuwa",
+    "name_en": "Moratuwa",
+    "name_si": null,
+    "district": 23,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 284,
+  "fields": {
+    "name": "Padukka",
+    "name_en": "Padukka",
+    "name_si": null,
+    "district": 23,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 285,
+  "fields": {
+    "name": "Ratmalana",
+    "name_en": "Ratmalana",
+    "name_si": null,
+    "district": 23,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 286,
+  "fields": {
+    "name": "Sri Jayawardenepura Kotte",
+    "name_en": "Sri Jayawardenepura Kotte",
+    "name_si": null,
+    "district": 23,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 287,
+  "fields": {
+    "name": "Thimbirigasyaya",
+    "name_en": "Thimbirigasyaya",
+    "name_si": null,
+    "district": 23,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 288,
+  "fields": {
+    "name": "Attanagalla",
+    "name_en": "Attanagalla",
+    "name_si": null,
+    "district": 24,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 289,
+  "fields": {
+    "name": "Biyagama",
+    "name_en": "Biyagama",
+    "name_si": null,
+    "district": 24,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 290,
+  "fields": {
+    "name": "Divulapitiya",
+    "name_en": "Divulapitiya",
+    "name_si": null,
+    "district": 24,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 291,
+  "fields": {
+    "name": "Dompe",
+    "name_en": "Dompe",
+    "name_si": null,
+    "district": 24,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 292,
+  "fields": {
+    "name": "Gampaha",
+    "name_en": "Gampaha",
+    "name_si": null,
+    "district": 24,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 293,
+  "fields": {
+    "name": "Ja-Ela",
+    "name_en": "Ja-Ela",
+    "name_si": null,
+    "district": 24,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 294,
+  "fields": {
+    "name": "Katana",
+    "name_en": "Katana",
+    "name_si": null,
+    "district": 24,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 295,
+  "fields": {
+    "name": "Kelaniya",
+    "name_en": "Kelaniya",
+    "name_si": null,
+    "district": 24,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 296,
+  "fields": {
+    "name": "Mahara",
+    "name_en": "Mahara",
+    "name_si": null,
+    "district": 24,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 297,
+  "fields": {
+    "name": "Minuwangoda",
+    "name_en": "Minuwangoda",
+    "name_si": null,
+    "district": 24,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 298,
+  "fields": {
+    "name": "Mirigama",
+    "name_en": "Mirigama",
+    "name_si": null,
+    "district": 24,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 299,
+  "fields": {
+    "name": "Negombo",
+    "name_en": "Negombo",
+    "name_si": null,
+    "district": 24,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 300,
+  "fields": {
+    "name": "Wattala",
+    "name_en": "Wattala",
+    "name_si": null,
+    "district": 24,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 301,
+  "fields": {
+    "name": "Agalawatta",
+    "name_en": "Agalawatta",
+    "name_si": null,
+    "district": 25,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 302,
+  "fields": {
+    "name": "Bandaragama",
+    "name_en": "Bandaragama",
+    "name_si": null,
+    "district": 25,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 303,
+  "fields": {
+    "name": "Beruwala",
+    "name_en": "Beruwala",
+    "name_si": null,
+    "district": 25,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 304,
+  "fields": {
+    "name": "Bulathsinhala",
+    "name_en": "Bulathsinhala",
+    "name_si": null,
+    "district": 25,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 305,
+  "fields": {
+    "name": "Dodangoda",
+    "name_en": "Dodangoda",
+    "name_si": null,
+    "district": 25,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 306,
+  "fields": {
+    "name": "Horana",
+    "name_en": "Horana",
+    "name_si": null,
+    "district": 25,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 307,
+  "fields": {
+    "name": "Ingiriya",
+    "name_en": "Ingiriya",
+    "name_si": null,
+    "district": 25,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 308,
+  "fields": {
+    "name": "Kalutara",
+    "name_en": "Kalutara",
+    "name_si": null,
+    "district": 25,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 309,
+  "fields": {
+    "name": "Madurawala",
+    "name_en": "Madurawala",
+    "name_si": null,
+    "district": 25,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 310,
+  "fields": {
+    "name": "Matugama",
+    "name_en": "Matugama",
+    "name_si": null,
+    "district": 25,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 311,
+  "fields": {
+    "name": "Millaniya",
+    "name_en": "Millaniya",
+    "name_si": null,
+    "district": 25,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 312,
+  "fields": {
+    "name": "Palindanuwara",
+    "name_en": "Palindanuwara",
+    "name_si": null,
+    "district": 25,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 313,
+  "fields": {
+    "name": "Panadura",
+    "name_en": "Panadura",
+    "name_si": null,
+    "district": 25,
+    "is_active": true
+  }
+},
+{
+  "model": "locations.dsdivision",
+  "pk": 314,
+  "fields": {
+    "name": "Walallawita",
+    "name_en": "Walallawita",
+    "name_si": null,
+    "district": 25,
+    "is_active": true
+  }
+}
+]

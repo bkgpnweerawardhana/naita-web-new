@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+@import "tailwindcss";
+
+@config "../tailwind.config.cjs";
+
+
+.react-select-container {
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.react-select__control {
+  border-radius: 0.375rem;
+  border-color: #d1d5db;
+  min-height: 42px;
+  transition: all 0.2s;
+}
+
+.react-select__control--is-focused {
+  border-color: #991b1b !important;
+  box-shadow: 0 0 0 2px rgba(153, 27, 27, 0.2) !important;
+}
+
+.react-select__option--is-focused {
+  background-color: #f3f4f6 !important;
+}
+
+.react-select__option--is-selected {
+  background-color: #991b1b !important;
+  color: white !important;
+}
+
+.react-select__menu {
+  z-index: 9999 !important;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.react-select__indicator-separator {
+  background-color: #d1d5db !important;
+}
+
+.react-select__dropdown-indicator:hover {
+  color: #991b1b !important;
+}
+
+.react-select__clear-indicator:hover {
+  color: #991b1b !important;
+}
+
+.react-select__input {
+  color: #374151 !important;
+}
+

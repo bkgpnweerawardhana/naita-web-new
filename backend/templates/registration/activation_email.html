@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Account Activation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+        .content {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3b82f6;
+            color: white !important;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8em;
+            color: #777;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <!-- Replace with your logo if available -->
+        <!-- domain must be {domain} change it after just testing 5173 port-->
+        <h1>Account Activation</h1>
+    </div>
+    
+    <div class="content">
+        <p>Hello {{ user.username }},</p>
+        
+        <p>Thank you for registering with us! Please click the button below to activate your account:</p>
+        
+        <p style="text-align: center;">
+            <a href="{{ protocol }}://162.16.0.15:5173/activate/{{ uid }}/{{ token }}" class="button">
+                Activate Account
+            </a>
+        </p>
+        
+        <p>If the button doesn't work, copy and paste this link into your browser:</p>
+        <p><code>{{ protocol }}://162.16.0.15:5173/activate/{{ uid }}/{{ token }}</code></p>
+        
+        <p>This link will expire in 24 hours.</p>
+    </div>
+    
+    <div class="footer">
+        <p>If you didn't request this registration, please ignore this email.</p>
+        <p>&copy; {% now "Y" %} Your Company Name. All rights reserved.</p>
+    </div>
+</body>
+</html>

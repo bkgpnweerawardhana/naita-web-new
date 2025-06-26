@@ -1,0 +1,92 @@
+/* Base styles */
+.announcement-carousel {
+  height: 100%;
+}
+
+/* Add to your HeroSlider component's container */
+.hero-container {
+  position: relative;
+  z-index: 1; /* Base layer */
+}
+
+/* For the announcement overlay */
+.announcement-overlay {
+  z-index: 20; /* Higher than hero content */
+}
+
+/* For the register button */
+.register-button {
+  z-index: 10; /* Between hero and announcements */
+}
+
+.announcement-slide {
+  height: 100%;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slide-title {
+  display: block;
+  color: white;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.slide-content {
+  color: rgba(255,255,255,0.9);
+  font-size: 12px;
+  margin-bottom: 12px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.slide-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slide-date {
+  color: rgba(255,255,255,0.7);
+  font-size: 11px;
+}
+
+.details-btn {
+  color: white;
+  padding: 0;
+  min-width: auto;
+}
+
+/* Transparent mode styles */
+.transparent-mode .announcement-slide {
+  background-color: rgba(0,0,0,0.3);
+  backdrop-filter: blur(2px);
+  border-radius: 8px;
+}
+
+.transparent-dots li button {
+  background: white !important;
+  opacity: 0.4;
+}
+
+.transparent-dots li.slick-active button {
+  opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .announcement-slide {
+    padding: 8px;
+  }
+  
+  .slide-title {
+    font-size: 13px;
+  }
+  
+  .slide-content {
+    font-size: 11px;
+  }
+}

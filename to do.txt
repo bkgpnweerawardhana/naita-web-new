@@ -1,0 +1,24 @@
+ToDO list 
+
+
+
+
+1. when sing up. after the activate link is cliicked it shows the error and the activation success message the same time and redirect to the login page. 
+
+
+3. add a pop up announcement section --- takes time to implement
+
+4. durartion filter is not happening  , and duration details is not showing on the course detail page -- a logic error
+
+5. news detail  like increment, share functions must be implement
+
+6. when go to the news detail page. the  top stories logic  needs to enhance
+
+7. 
+
+8. contact us bar - design 
+
+9. check contact us page logic again - 
+ 
+
+11. image slider to the news detail page
